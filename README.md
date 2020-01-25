@@ -1,2 +1,2 @@
 # Resume
-My website resume
+My curriculum vitæ
