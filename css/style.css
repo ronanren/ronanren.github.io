@@ -232,6 +232,9 @@ img {
         width: 35%;
         margin-left: 15%;
     }
+    header h1 {
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width:500px) {
