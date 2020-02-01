@@ -181,11 +181,23 @@ img {
     margin-bottom: 20px;
 }
 
+.progressbarlangue {
+    background-color: #d4d4d4;
+    border-radius: 13px;
+    padding: 3px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.langue {
+    margin-left: 12%;
+}
+
 .bar {
     background-color: #346abb;
-    height: 20px;
+    height: 18px;
     border-radius: 10px;
-
 }
 
 .hardskills li span {
