@@ -17,6 +17,9 @@ body {
     --white: #262626;
     --dark-bar: #d4d4d4;
     --border: #e6e6e6;
+    --github: url(../img/github.png);
+    --linkedin: url(../img/linkedin.png);
+    --codecamp: url(../img/codecamp.png);
     
 }
 
@@ -26,6 +29,9 @@ body {
     --white: rgb(218, 216, 210);
     --dark-bar: #242728;
     --border: rgb(56, 56, 56);
+    --github: url(../img/github-dark.png);
+    --linkedin: url(../img/linkedin-dark.png);
+    --codecamp: url(../img/codecamp-dark.png);
 }
 
 /* TEXT */
@@ -302,6 +308,19 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.imggithub {
+    content: var(--github);
+}
+
+.imglinkedin {
+    content: var(--linkedin);
+}
+
+.imgcodecamp {
+    content: var(--codecamp);
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:990px) {
@@ -316,6 +335,13 @@ img {
     .side-bar li p span {
         width: 22%;
         margin-left: 32%;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .side-bar li p span {
+        width: 35%;
+        margin-left: 15%;
     }
 }
 
