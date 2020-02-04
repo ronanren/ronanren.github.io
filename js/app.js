@@ -52,17 +52,25 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 var charElem = document.querySelectorAll('.progressbar'), i;
 
 var charElemj = document.querySelectorAll('.progressbarlangue'), j;
-
+var itab = new Array();
+var jtab = new Array();
+for(let m = 0; m < i; m++){
+    itab[m] = false;
+}
+for(let m = 0; m < j; m++){
+    jtab[j] = false;
+}
 window.onscroll = function() {
     for (i = 0; i < charElem.length; ++i){
-        if(isElementInViewport(charElem[i])) {
+        if(isElementInViewport(charElem[i]) && !itab[i]) {
             charElem[i].className += " anim";
+            itab[i] = true;
         }
     }
     for (j = 0; j < charElemj.length; ++j){
-        if(isElementInViewport(charElemj[j])) {
+        if(isElementInViewport(charElemj[j]) && !jtab[j]) {
             charElemj[j].className += " anim";
-            
+            jtab[j] = true;
         }
     }
 }
