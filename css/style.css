@@ -321,6 +321,29 @@ img {
     content: var(--codecamp);
 }
 
+
+.progressbar.anim {
+  animation: progressbaranim 1s ease-in-out;
+}
+
+.progressbarlangue.anim {
+  animation: progressbaranimlangue 1s ease-in-out;
+}
+
+@keyframes progressbaranimlangue {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+
+@keyframes progressbaranim {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+
+
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:990px) {

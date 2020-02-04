@@ -45,3 +45,41 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+/* ANIMATION SCROLL BAR */
+
+
+var charElem = document.querySelectorAll('.progressbar'), i;
+
+var charElemj = document.querySelectorAll('.progressbarlangue'), j;
+
+window.onscroll = function() {
+    for (i = 0; i < charElem.length; ++i){
+        if(isElementInViewport(charElem[i])) {
+            charElem[i].className += " anim";
+        }
+    }
+    for (j = 0; j < charElemj.length; ++j){
+        if(isElementInViewport(charElemj[j])) {
+            charElemj[j].className += " anim";
+            
+        }
+    }
+}
+
+function isElementInViewport (el) {
+
+    //special bonus for those using jQuery
+    if (typeof jQuery === "function" && el instanceof jQuery) {
+        el = el[0];
+    }
+
+    var rect = el.getBoundingClientRect();
+
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight + 40 || document.documentElement.clientHeight + 40) && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    );
+}
