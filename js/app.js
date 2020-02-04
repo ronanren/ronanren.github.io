@@ -79,7 +79,7 @@ function isElementInViewport (el) {
     return (
         rect.top >= 0 &&
         rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight + 40 || document.documentElement.clientHeight + 40) && /*or $(window).height() */
+        rect.bottom <= (window.innerHeight + 20 || document.documentElement.clientHeight + 20) && /*or $(window).height() */
         rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
     );
 }
