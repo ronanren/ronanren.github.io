@@ -54,12 +54,9 @@ var charElem = document.querySelectorAll('.progressbar'), i;
 var charElemj = document.querySelectorAll('.progressbarlangue'), j;
 var itab = new Array();
 var jtab = new Array();
-for(let m = 0; m < i; m++){
-    itab[m] = false;
-}
-for(let m = 0; m < j; m++){
-    jtab[j] = false;
-}
+
+itab.fill(false, 0, i);
+jtab.fill(false, 0, j)
 window.onscroll = function() {
     for (i = 0; i < charElem.length; ++i){
         if(isElementInViewport(charElem[i]) && !itab[i]) {
@@ -76,18 +73,12 @@ window.onscroll = function() {
 }
 
 function isElementInViewport (el) {
-
-    //special bonus for those using jQuery
-    if (typeof jQuery === "function" && el instanceof jQuery) {
-        el = el[0];
-    }
-
     var rect = el.getBoundingClientRect();
 
     return (
         rect.top >= 0 &&
         rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight + 20 || document.documentElement.clientHeight + 20) && /*or $(window).height() */
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+        rect.bottom <= (window.innerHeight + 20 || document.documentElement.clientHeight + 20) && 
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
