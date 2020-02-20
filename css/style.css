@@ -237,8 +237,16 @@ img {
 }
 
 .projets li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
+
+.projets img {
+    margin-top: 5px;
+    max-width: 200px;
+    margin-left: -10px;
+    padding-right: 50px;
+}
+
 .hardskills-bar {
     margin-top: 10px;
 }
@@ -355,6 +363,12 @@ img {
         width: 35%;
         margin-left: 15%;
     }
+    .projets img {
+        max-width: 300px;
+        height: auto;
+        padding-right: 45px;
+
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -362,12 +376,16 @@ img {
         width: 24%;
         margin-left: 29%;
     }
+    
 }
 
 @media screen and (max-width:700px) {
     .side-bar li p span {
         width: 28%;
         margin-left: 24%;
+    }
+    .projets img {
+        width: 150px;
     }
 }
 
@@ -382,6 +400,9 @@ img {
     .imageprojet {
         margin-right: 0;
         margin-left: 0;
+    }
+    .projets img {
+        width: 120px;
     }
 }
 
