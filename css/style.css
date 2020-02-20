@@ -138,16 +138,6 @@ img {
     margin-top: 15px;
 }
 
-.stages .content-formation ul {
-    list-style: disc;
-    padding: 0;
-    margin-top: 0px;
-    margin-left: 18px;
-}
-
-.stages .content-formation ul li {
-    padding-bottom: 10px;
-}
 
 .formation .content-formation ul {
     padding: 0;
@@ -161,9 +151,6 @@ img {
     padding-left: 20px;
 }
 
-.tactilia ul {
-    border: none;
-}
 
 .dot {
     height: 25px;
