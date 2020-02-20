@@ -110,10 +110,8 @@ img {
 
 .main-content ul {
     list-style: none;
-    margin-top: 10px;
     padding: 15px;
     margin-bottom: 0;
-    border-bottom: 1px solid var(--border);
 }
 
 .main-content li span {
@@ -138,6 +136,9 @@ img {
     margin-top: 15px;
 }
 
+.formation ul {
+    padding-bottom: 0;
+}
 
 .formation .content-formation ul {
     padding: 0;
@@ -149,6 +150,18 @@ img {
 
 .side-bar h2 {
     padding-left: 20px;
+}
+
+.imageprojet {
+    transition: transform 0.5s;
+}
+.images-projet {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.imageprojet:hover { 
+    transform: scale(1.05); 
 }
 
 
@@ -217,26 +230,12 @@ img {
     width: 50%;
 }
 
+
 .projets h2 {
     display: inline-block;
-    border-top: 1px solid var(--border);
     width: 100%;
 }
-.imageprojet {
-    margin-top: 10px;
-    transition: transform 0.5s;
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-bottom: 10px;
-}
-.images-projet {
-    text-align: center;
-    margin-top: 15px;
-}
 
-.imageprojet:hover { 
-    transform: scale(1.05); 
-}
 
 .hardskills-bar {
     margin-top: 10px;
