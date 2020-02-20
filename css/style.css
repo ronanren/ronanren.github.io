@@ -236,7 +236,9 @@ img {
     width: 100%;
 }
 
-
+.projets li {
+    margin-bottom: 10px;
+}
 .hardskills-bar {
     margin-top: 10px;
 }
