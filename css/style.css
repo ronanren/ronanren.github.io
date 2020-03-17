@@ -153,15 +153,10 @@ img {
 .imageprojet {
   transition: transform 0.5s;
 }
-.images-projet {
-  text-align: center;
-  margin-top: 15px;
-}
 
 .imageprojet:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
-
 .dot {
   height: 25px;
   width: 25px;
