@@ -309,11 +309,11 @@ img {
 }
 
 .progressbar.anim {
-  animation: progressbaranim 1s ease-in-out;
+  animation: progressbaranim 1.3s ease-in-out;
 }
 
 .progressbarlangue.anim {
-  animation: progressbaranimlangue 1s ease-in-out;
+  animation: progressbaranimlangue 1.3s ease-in-out;
 }
 
 @keyframes progressbaranimlangue {
