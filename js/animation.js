@@ -20,7 +20,7 @@ $(window).scroll(function() {
     if (scrolledFromTop >= distanceFromTop) {
       var delaiAnim = $(this).data("delai");
       $(this)
-        .delay(200)
+        .delay(100)
         .animate(
           {
             width: "100%",
@@ -35,7 +35,7 @@ $(window).scroll(function() {
     if (scrolledFromTop >= distanceFromTop) {
       var delaiAnim = $(this).data("delai");
       $(this)
-        .delay(200)
+        .delay(100)
         .animate(
           {
             width: "80%",
