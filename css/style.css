@@ -338,11 +338,6 @@ img {
   opacity: 0;
 }
 
-.appear-1 {
-  -webkit-animation-delay: 15s;
-  animation: 2s apparition1;
-}
-
 .appear-2 {
   animation: 1s apparition2;
 }
