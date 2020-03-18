@@ -8,6 +8,7 @@ body {
   scroll-behavior: smooth;
   background-color: var(--dark-bg);
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 :root {
@@ -338,6 +339,7 @@ img {
 }
 
 .appear-1 {
+  -webkit-animation-delay: 15s;
   animation: 2s apparition1;
 }
 
