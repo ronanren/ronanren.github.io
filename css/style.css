@@ -9,6 +9,9 @@ body {
   background-color: var(--dark-bg);
   box-sizing: border-box;
   overflow-x: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 :root {
@@ -198,8 +201,6 @@ img {
   border-radius: 13px;
   padding: 3px;
   margin-bottom: 20px;
-  width: 0%;
-  opacity: 0;
 }
 
 .progressbarlangue {
@@ -209,8 +210,6 @@ img {
   margin-bottom: 20px;
   width: 80%;
   margin-left: 10%;
-  width: 0%;
-  opacity: 0;
 }
 
 .langue {
@@ -311,6 +310,35 @@ img {
 
 .imgcodecamp {
   content: var(--codecamp);
+}
+.progressbar.anim {
+  animation: progressbaranim 1.3s ease-in-out;
+}
+
+.progressbarlangue.anim {
+  animation: progressbaranimlangue 1.3s ease-in-out;
+}
+
+@keyframes progressbaranimlangue {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 80%;
+    opacity: 1;
+  }
+}
+
+@keyframes progressbaranim {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
 }
 
 .appear {

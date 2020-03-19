@@ -43,3 +43,21 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener("change", switchTheme, false);
+
+/* ANIMATION SCROLL BAR */
+
+$(window).scroll(function() {
+  var scrolledFromTop = $(window).scrollTop() + $(window).height();
+  $(".progressbar").each(function() {
+    var distanceFromTop = $(this).offset().top;
+    if (scrolledFromTop >= distanceFromTop) {
+      $(this).addClass("anim");
+    }
+  });
+  $(".progressbarlangue").each(function() {
+    var distanceFromTop = $(this).offset().top;
+    if (scrolledFromTop >= distanceFromTop) {
+      $(this).addClass("anim");
+    }
+  });
+});
