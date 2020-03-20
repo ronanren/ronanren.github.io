@@ -25,7 +25,7 @@ $(window).scroll(function() {
     var distanceFromTop = $(this).offset().top;
     if (scrolledFromTop >= distanceFromTop - 20 && screen.width >= 750) {
       $(this).addClass("anim");
-    } else if (scrolledFromTop >= distanceFromTop - 120 && screen.width < 750) {
+    } else if (scrolledFromTop >= distanceFromTop - 140 && screen.width < 750) {
       $(this).addClass("anim");
     }
   });
