@@ -22,15 +22,9 @@ $(window).scroll(function() {
 
 $(window).scroll(function() {
   var scrolledFromTop = $(window).scrollTop() + $(window).height();
-  $(".progressbar").each(function() {
+  $(".progressbar, .progressbarlangue").each(function() {
     var distanceFromTop = $(this).offset().top;
-    if (scrolledFromTop >= distanceFromTop) {
-      $(this).addClass("anim");
-    }
-  });
-  $(".progressbarlangue").each(function() {
-    var distanceFromTop = $(this).offset().top;
-    if (scrolledFromTop >= distanceFromTop) {
+    if (scrolledFromTop >= distanceFromTop - 30) {
       $(this).addClass("anim");
     }
   });
