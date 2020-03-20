@@ -498,7 +498,13 @@ img {
 
 @media screen and (max-width: 410px) {
   h1 {
-    font-size: 1.2em;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 1.15em;
   }
 }
 
