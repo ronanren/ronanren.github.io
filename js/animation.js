@@ -24,7 +24,7 @@ $(window).scroll(function() {
   var scrolledFromTop = $(window).scrollTop() + $(window).height();
   $(".progressbar, .progressbarlangue").each(function() {
     var distanceFromTop = $(this).offset().top;
-    if (scrolledFromTop >= distanceFromTop - 30) {
+    if (scrolledFromTop >= distanceFromTop - 60) {
       $(this).addClass("anim");
     }
   });
