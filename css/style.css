@@ -39,12 +39,12 @@ body {
 /* TEXT */
 h1 {
   color: var(--white);
-  text-transform: uppercase;
-  margin-left: 50px;
+  margin-left: 60px;
   float: left;
   margin-top: 50px;
   line-height: 38px;
   font-weight: bolder;
+  font-size: 3em;
 }
 
 h2 {
@@ -506,3 +506,5 @@ img {
     font-size: 10px;
   }
 }
+
+/* Animation h1 text */

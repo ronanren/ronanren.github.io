@@ -29,3 +29,23 @@ $(window).scroll(function() {
     }
   });
 });
+
+/* Animation texte h1 */
+$(window).ready(() => {
+  new Typewriter("#typewriter", {
+    delay: 50,
+    deleteSpeed: 20
+  })
+    .pauseFor(1000)
+    .typeString("Bonjour, je suis Ronan Renoux.")
+    .pauseFor(1000)
+    .deleteChars(13)
+    .typeString("étudiant.")
+    .pauseFor(1000)
+    .deleteChars(9)
+    .typeString("développeur.")
+    .pauseFor(1000)
+    .deleteAll(5)
+    .typeString("Bonne visite !")
+    .start();
+});
