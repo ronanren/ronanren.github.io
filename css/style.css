@@ -439,6 +439,9 @@ img {
   .projets span {
     right: 20px;
   }
+  h1 {
+    font-size: 2.5em;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -448,6 +451,9 @@ img {
   }
   .projets span {
     right: 50px;
+  }
+  h1 {
+    font-size: 1.9em;
   }
 }
 
@@ -463,7 +469,7 @@ img {
     right: 100px;
   }
   h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 }
 
@@ -482,9 +488,6 @@ img {
     width: 40%;
     margin-left: 5%;
   }
-  header h1 {
-    font-size: 28px;
-  }
   .projets span {
     right: 125px;
   }
@@ -493,10 +496,13 @@ img {
   }
 }
 
-@media screen and (max-width: 360px) {
-  header h1 {
-    font-size: 20px;
+@media screen and (max-width: 410px) {
+  h1 {
+    font-size: 1.3em;
   }
+}
+
+@media screen and (max-width: 360px) {
   h2 {
     font-size: 12px;
   }
@@ -507,11 +513,17 @@ img {
   .projets span {
     right: 140px;
   }
+  h1 {
+    font-size: 1.15em;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .side-bar li p span {
     width: 34%;
     font-size: 10px;
+  }
+  h1 {
+    font-size: 1em;
   }
 }
