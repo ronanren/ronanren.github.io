@@ -462,12 +462,18 @@ img {
   .projets span {
     right: 100px;
   }
+  h1 {
+    font-size: 1.8em;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .side-bar li p span {
     width: 42%;
     margin-left: 8%;
+  }
+  h1 {
+    font-size: 1.6em;
   }
 }
 
@@ -481,6 +487,9 @@ img {
   }
   .projets span {
     right: 125px;
+  }
+  h1 {
+    font-size: 1.4em;
   }
 }
 
@@ -506,5 +515,3 @@ img {
     font-size: 10px;
   }
 }
-
-/* Animation h1 text */

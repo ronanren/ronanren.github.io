@@ -31,21 +31,29 @@ $(window).scroll(function() {
 });
 
 /* Animation texte h1 */
+
 $(window).ready(() => {
+  const stringSplitter = string => {
+    const splitter = new GraphemeSplitter();
+    return splitter.splitGraphemes(string);
+  };
   new Typewriter("#typewriter", {
-    delay: 50,
-    deleteSpeed: 20
+    delay: 45,
+    deleteSpeed: 15,
+    loop: true,
+    stringSplitter
   })
     .pauseFor(1000)
     .typeString("Bonjour, je suis Ronan Renoux.")
-    .pauseFor(1000)
+    .pauseFor(1200)
     .deleteChars(13)
-    .typeString("étudiant.")
-    .pauseFor(1000)
-    .deleteChars(9)
-    .typeString("développeur.")
-    .pauseFor(1000)
-    .deleteAll(5)
-    .typeString("Bonne visite !")
+    .typeString("étudiant. 🎓")
+    .pauseFor(1200)
+    .deleteChars(11)
+    .typeString("développeur. 💻")
+    .pauseFor(1200)
+    .deleteAll(10)
+    .typeString("Bonne visite 😉")
+    .pauseFor(5000)
     .start();
 });
