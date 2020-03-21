@@ -58,12 +58,7 @@ $(document).ready(function() {
   var updateProgress = function() {
     var scroll = $(window).scrollTop();
     var height = $(document).height() - $(window).height();
-    if (screen.width < 600) {
-      var progress = pathLength - (scroll * pathLength) / height - 5;
-    } else {
-      var progress = pathLength - (scroll * pathLength) / height;
-    }
-
+    var progress = pathLength - (scroll * pathLength) / height;
     progressPath.style.strokeDashoffset = progress;
   };
   updateProgress();
