@@ -55,6 +55,6 @@ $(window).ready(() => {
     .pauseFor(1100)
     .deleteAll(10)
     .typeString("Bonne visite 😉")
-    .pauseFor(5000)
+    .pauseFor(6000)
     .start();
 });
