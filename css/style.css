@@ -1,11 +1,13 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
   background-color: var(--dark-bg);
   box-sizing: border-box;
   overflow-x: hidden;
@@ -237,6 +239,13 @@ img {
 
 .hardskills-bar {
   margin-top: 10px;
+}
+
+.anchor {
+  display: block;
+  height: 50px;
+  margin-top: -50px;
+  visibility: hidden;
 }
 
 .imgprofil {
@@ -562,7 +571,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  width: 100vw;
+  width: 100%;
   background-color: #346abb;
   display: flex;
   justify-content: space-between;
@@ -579,6 +588,9 @@ nav > div > ul {
   margin-top: 10px;
   margin-left: -50px;
   flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 100px;
 }
 
 nav > div > ul > a {
@@ -592,7 +604,10 @@ nav > div > ul > a {
 }
 nav > div > ul > a:hover {
   background-color: #ffffff;
-  color: #3228c5;
+}
+
+nav > div > ul > a:hover > li {
+  color: #346abb;
 }
 
 nav > div > img {
