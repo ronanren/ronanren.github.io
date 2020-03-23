@@ -590,7 +590,7 @@ nav > div > ul {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 100px;
+  padding-right: 60px;
 }
 
 nav > div > ul > a {
@@ -602,6 +602,7 @@ nav > div > ul > a {
   padding: 6px 12px;
   border-radius: 40px;
 }
+
 nav > div > ul > a:hover {
   background-color: #ffffff;
 }
@@ -610,25 +611,14 @@ nav > div > ul > a:hover > li {
   color: #346abb;
 }
 
-nav > div > img {
-  width: 150px;
-  margin-top: 10px;
-  margin-left: 30px;
-}
-
 #menuToggle input {
   display: none;
 }
 @media screen and (max-width: 600px) {
-  #menuToggle > img {
-    margin-top: -72px;
-    transform: translateX(46vw);
-    margin-left: -80px;
-  }
   #menuToggle {
     display: block;
     position: relative;
-    top: 30px;
+    top: 15px;
     left: 25px;
     z-index: 1;
   }
@@ -681,7 +671,7 @@ nav > div > img {
     background: #232323;
     transform: rotate(45deg) translate(-2px, -1px);
   }
-  #menuToggle input:checked ~ span:nth-last-child(3) {
+  #menuToggle input:checked ~ #thirdspan {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
@@ -709,6 +699,10 @@ nav > div > img {
     padding: 10px 0;
     margin-top: -450px;
     font-size: 22px;
+    color: #181a1b;
+  }
+  #menu li:hover {
+    color: #346abb;
   }
 
   #menuToggle input:checked ~ ul {
@@ -723,6 +717,6 @@ nav > div > img {
     margin-left: -10px;
   }
   nav {
-    height: 75px;
+    height: 54px;
   }
 }
