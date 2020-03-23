@@ -41,7 +41,7 @@ h1 {
 h2 {
   color: var(--white);
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   padding: 20px;
   padding-left: 10px;
   margin: 0px;
@@ -89,16 +89,26 @@ img {
 
 .side-bar ul {
   list-style: none;
-  margin-top: 20px;
+  margin-top: -260px;
+  margin-left: 400px;
   padding: 15px;
-  margin-bottom: 0;
-  border-bottom: 1px solid var(--border);
+}
+
+.side-bar > img {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.side-bar li p {
+  padding-top: 10px;
+  font-size: 16px;
 }
 
 .side-bar li p span {
   width: 45%;
   float: left;
   text-transform: uppercase;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -421,11 +431,23 @@ img {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
   .side-bar li p span {
-    width: 24%;
-    margin-left: 29%;
+    width: 50%;
+    margin-left: -1%;
   }
+}
+
+@media screen and (max-width: 800px) {
+  .side-bar li p span {
+    width: 40%;
+  }
+  .side-bar li p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .projets span {
     right: 20px;
   }
