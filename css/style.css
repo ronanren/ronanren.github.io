@@ -57,7 +57,7 @@ li {
 }
 p {
   color: var(--white);
-  font-size: 13.5px;
+  font-size: 14px;
 }
 
 /* BOOSTRAP */
@@ -135,8 +135,9 @@ img {
 }
 
 .social {
-  text-align: center;
-  margin-top: 15px;
+  text-align: left;
+  margin-top: -15px;
+  margin-left: 70px;
 }
 
 .formation ul {
@@ -179,24 +180,6 @@ img {
   margin-bottom: 5px;
 }
 
-.softskills a {
-  display: inline-block;
-  border: 1px solid var(--border);
-  padding: 10px 20px;
-  margin-top: 10px;
-  margin-left: 5px;
-  font-weight: 600;
-  font-size: 13px;
-  color: var(--white);
-}
-
-.softskills a:hover {
-  background-color: #346abb;
-  text-decoration: none;
-  color: white;
-  transition: 0.5s;
-}
-
 .progressbar {
   background-color: var(--dark-bar);
   border-radius: 13px;
@@ -204,23 +187,28 @@ img {
   margin-bottom: 20px;
 }
 
-.progressbarlangue {
-  background-color: var(--dark-bar);
-  border-radius: 13px;
-  padding: 3px;
-  margin-bottom: 20px;
-  width: 80%;
-  margin-left: 10%;
-}
-
-.langue {
-  margin-left: 12%;
-}
-
 .bar {
   background-color: #346abb;
   height: 18px;
   border-radius: 10px;
+}
+
+.interets,
+.langue {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+}
+
+.interets > p,
+.langue > p {
+  font-size: 15px;
+}
+
+.interets > p > span,
+.langue > p > span {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .hardskills li span {
@@ -454,6 +442,11 @@ img {
     margin-right: auto;
     margin-top: 0;
   }
+  .social {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -490,6 +483,14 @@ img {
   }
   h1 {
     font-size: 1.6em;
+  }
+  .langue,
+  .interets {
+    margin-left: 5%;
+  }
+  .langue > p,
+  .interets > p {
+    font-size: 12px;
   }
 }
 

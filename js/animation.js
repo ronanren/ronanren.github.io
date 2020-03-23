@@ -21,7 +21,7 @@ $(window).scroll(function() {
 /* ANIMATION SCROLL BAR */
 $(window).scroll(function() {
   var scrolledFromTop = $(window).scrollTop() + $(window).height();
-  $(".progressbar, .progressbarlangue").each(function() {
+  $(".progressbar").each(function() {
     var distanceFromTop = $(this).offset().top;
     if (scrolledFromTop >= distanceFromTop - 20 && screen.width >= 750) {
       $(this).addClass("anim");
