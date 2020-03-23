@@ -438,12 +438,21 @@ img {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   .side-bar li p span {
-    width: 40%;
+    width: 200px;
   }
   .side-bar li p {
     font-size: 14px;
+  }
+  .side-bar ul {
+    margin-top: 10px;
+    margin-left: 28%;
+  }
+  .side-bar > img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
   }
 }
 
@@ -457,22 +466,21 @@ img {
 }
 
 @media screen and (max-width: 700px) {
-  .side-bar li p span {
-    width: 28%;
-    margin-left: 24%;
-  }
   .projets span {
     right: 50px;
   }
   h1 {
     font-size: 1.9em;
   }
+  .side-bar ul {
+    margin-left: 22%;
+  }
 }
 
 @media screen and (max-width: 560px) {
   .side-bar li p span {
-    width: 35%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: -10%;
   }
   header h1 {
     margin-left: 15px;
@@ -486,10 +494,6 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-  .side-bar li p span {
-    width: 42%;
-    margin-left: 8%;
-  }
   h1 {
     font-size: 1.6em;
   }
@@ -497,8 +501,9 @@ img {
 
 @media screen and (max-width: 440px) {
   .side-bar li p span {
-    width: 40%;
-    margin-left: 5%;
+    width: 60%;
+    margin-left: -25%;
+    font-size: 16px;
   }
   .projets span {
     right: 125px;
