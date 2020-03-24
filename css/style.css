@@ -265,6 +265,24 @@ img {
 .imgcodecamp {
   content: var(--codecamp);
 }
+
+.cv {
+  position: absolute;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 80vw;
+  margin-top: 3px;
+  border: 1px solid #346abb;
+  padding: 3px 5px;
+}
+
+.cv:hover {
+  transition: border 0.5s ease;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .progressbar.anim {
   animation: progressbaranim 1.3s ease-in-out;
 }
@@ -604,15 +622,15 @@ nav > div > ul > a {
   margin-left: 40px;
   font-size: 1.1em;
   padding: 6px 12px;
-  border-radius: 40px;
+  transition: all 0.5s;
 }
 
 nav > div > ul > a:hover {
-  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 nav > div > ul > a:hover > li {
-  color: #346abb;
+  color: #ffffff;
 }
 
 #menuToggle input {
