@@ -409,6 +409,11 @@ img {
   .main-content {
     padding-top: 20px;
   }
+  .projets h4,
+  .projets p {
+    width: 85vw;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 820px) {
@@ -484,6 +489,10 @@ img {
   }
   .cv {
     margin-left: 78vw;
+  }
+  .projets h4,
+  .projets p {
+    width: 100%;
   }
 }
 
