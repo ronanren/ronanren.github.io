@@ -275,6 +275,7 @@ img {
   border: 1px solid #346abb;
   padding: 2px 5px;
   border-radius: 3px;
+  z-index: 100;
 }
 
 .cv:hover {
