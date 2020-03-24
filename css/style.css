@@ -270,10 +270,11 @@ img {
   position: absolute;
   text-decoration: none;
   color: #ffffff;
-  margin-left: 80vw;
-  margin-top: 3px;
+  margin-left: 88vw;
+  margin-top: 4px;
   border: 1px solid #346abb;
-  padding: 3px 5px;
+  padding: 2px 5px;
+  border-radius: 3px;
 }
 
 .cv:hover {
@@ -401,6 +402,10 @@ img {
   .main-content {
     padding-top: 20px;
   }
+  .cv {
+    margin-left: 85vw;
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 820px) {
@@ -445,6 +450,9 @@ img {
   .side-bar ul {
     margin-left: 22%;
   }
+  .cv {
+    margin-left: 82vw;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -464,6 +472,9 @@ img {
   .langue,
   .interets {
     margin-left: 5%;
+  }
+  .cv {
+    margin-left: 78vw;
   }
 }
 
@@ -485,11 +496,17 @@ img {
   h1 {
     font-size: 1.4em;
   }
+  .cv {
+    margin-left: 75vw;
+  }
 }
 
 @media screen and (max-width: 410px) {
   h1 {
     font-size: 1.3em;
+  }
+  .cv {
+    margin-left: 72vw;
   }
 }
 
@@ -515,6 +532,9 @@ img {
   }
   #menu > a > li {
     font-size: 16px;
+  }
+  .cv {
+    margin-left: 68vw;
   }
 }
 
