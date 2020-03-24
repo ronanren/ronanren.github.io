@@ -665,6 +665,7 @@ nav > div > ul > a:hover > li {
 #menuToggle input {
   display: none;
 }
+
 @media screen and (max-width: 600px) {
   #menuToggle {
     display: block;
@@ -749,10 +750,11 @@ nav > div > ul > a:hover > li {
 
   #menu li {
     padding: 10px 0;
-    margin-top: -80vh;
-    margin-left: -20px;
-    font-size: 20px;
+    margin-top: -75vh;
+    margin-left: -5%;
+    font-size: 18px;
     color: #181a1b;
+    text-align: left;
   }
   #menu li:hover {
     color: #346abb;
