@@ -233,8 +233,8 @@ img {
 
 .projets img {
   margin-top: 5px;
-  max-width: 200px;
-  margin-left: -10px;
+  max-width: 250px;
+  margin-left: 30px;
   padding-right: 50px;
 }
 
@@ -352,6 +352,7 @@ img {
     max-width: 280px;
     width: 450px;
     margin-top: 0px;
+    margin-left: -10px;
   }
   .projets .content-formation {
     padding-top: 160px;
