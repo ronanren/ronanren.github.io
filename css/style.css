@@ -503,7 +503,7 @@ img {
     right: 125px;
   }
   h1 {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
   .cv {
     margin-left: 75vw;
@@ -512,7 +512,7 @@ img {
 
 @media screen and (max-width: 410px) {
   h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   .cv {
     margin-left: 72vw;
@@ -521,7 +521,7 @@ img {
 
 @media screen and (max-width: 380px) {
   h1 {
-    font-size: 1.15em;
+    font-size: 1.4em;
   }
 }
 
@@ -537,7 +537,7 @@ img {
     right: 140px;
   }
   h1 {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
   #menu > a > li {
     font-size: 16px;
@@ -553,7 +553,7 @@ img {
     font-size: 10px;
   }
   h1 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 
