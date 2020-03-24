@@ -41,6 +41,7 @@ $(document).ready(function() {
   });
 });
 
+/* REMOVE MENU ON CLICK ON SECTION */
 function removeMenu() {
   $(".checkbox").click();
 }
