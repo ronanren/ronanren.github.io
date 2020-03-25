@@ -39,21 +39,21 @@ $(window).ready(() => {
     return splitter.splitGraphemes(string);
   };
   new Typewriter("#typewriter", {
-    delay: 45,
+    delay: 48,
     deleteSpeed: 15,
     loop: true,
     stringSplitter
   })
-    .pauseFor(1000)
+    .pauseFor(800)
     .typeString("Bienvenue, je suis Ronan Renoux.")
-    .pauseFor(1100)
+    .pauseFor(1200)
     .deleteChars(13)
     .typeString("étudiant. 🎓")
-    .pauseFor(1100)
+    .pauseFor(1200)
     .deleteChars(11)
     .typeString("développeur. 💻")
-    .pauseFor(1100)
-    .deleteAll(10)
+    .pauseFor(1200)
+    .deleteAll(20)
     .typeString("Bonne visite 😉")
     .pauseFor(6000)
     .start();
