@@ -45,7 +45,7 @@ $(window).ready(() => {
     stringSplitter
   })
     .pauseFor(1000)
-    .typeString("Bonjour, je suis Ronan Renoux.")
+    .typeString("Bienvenue, je suis Ronan Renoux.")
     .pauseFor(1100)
     .deleteChars(13)
     .typeString("étudiant. 🎓")
