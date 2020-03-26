@@ -38,14 +38,15 @@ $(window).ready(() => {
     const splitter = new GraphemeSplitter();
     return splitter.splitGraphemes(string);
   };
+
   new Typewriter("#typewriter", {
     delay: 48,
     deleteSpeed: 15,
     loop: true,
     stringSplitter
   })
-    .pauseFor(800)
-    .typeString("Bienvenue, je suis Ronan Renoux.")
+    .pauseFor(1200)
+    .typeString("je suis Ronan Renoux.")
     .pauseFor(1200)
     .deleteChars(13)
     .typeString("étudiant. 🎓")
