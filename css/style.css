@@ -502,7 +502,7 @@ img {
     right: 125px;
   }
   h1 {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   .cv {
     margin-left: 75vw;
@@ -510,8 +510,9 @@ img {
 }
 
 @media screen and (max-width: 410px) {
-  h1 {
-    font-size: 1.5em;
+  #typewriter1,
+  #typewriter {
+    font-size: 1em;
   }
   .cv {
     margin-left: 72vw;
@@ -519,9 +520,6 @@ img {
 }
 
 @media screen and (max-width: 380px) {
-  h1 {
-    font-size: 1.4em;
-  }
   #typewriter,
   #typewriter1 {
     font-size: 24px;
