@@ -455,13 +455,6 @@ img {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .imgcv {
-    display: initial;
-    margin-left: 70vw;
-  }
-}
-
 @media screen and (max-width: 560px) {
   .side-bar li p span {
     width: 50%;
@@ -774,6 +767,7 @@ nav > div > ul > a:hover > li {
     color: #181a1b;
     text-align: left;
   }
+
   #menu li:hover {
     color: #346abb;
   }
@@ -792,6 +786,11 @@ nav > div > ul > a:hover > li {
   }
   nav {
     height: 54px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .btn {
+    margin-left: 20px;
   }
 }
 
@@ -1585,6 +1584,27 @@ button {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .imgcv {
+    display: initial;
+    margin-left: 68vw;
+  }
+  #buttoncv {
+    width: 60px;
+  }
+  .cv {
+    margin-left: 85vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imgcv {
+    margin-left: 66vw;
+  }
+  .cv {
+    margin-left: 85vw;
+  }
+}
 button::before,
 button::after {
   content: "";
