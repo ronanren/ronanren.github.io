@@ -1,5 +1,6 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -422,6 +423,9 @@ img {
   #typewriter1 {
     font-size: 40px;
   }
+  .imgcv {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -448,6 +452,13 @@ img {
   #typewriter1 {
     font-size: 34px;
     margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imgcv {
+    display: initial;
+    margin-left: 70vw;
   }
 }
 
@@ -628,7 +639,6 @@ nav {
   width: 100%;
   background-color: #181a1b;
   display: flex;
-  justify-content: space-between;
   z-index: 10;
 }
 nav > div {
@@ -636,14 +646,19 @@ nav > div {
   width: 100%;
 }
 
+#menu > p {
+  margin-top: 2px;
+  margin-left: -25px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
 nav > div > ul {
   display: flex;
   list-style: none;
   margin-top: 10px;
   margin-left: -50px;
   flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
   padding-right: 60px;
 }
 
@@ -1523,7 +1538,7 @@ section:before {
   }
 }
 
-/* */
+/* BOUTON DOWNLOAD CV */
 button {
   display: inline-block;
   position: absolute;
@@ -1560,9 +1575,16 @@ button {
 }
 .imgcv {
   position: absolute;
-  margin-left: 83vw;
+  margin-left: 82vw;
   margin-top: 6px;
 }
+
+@media screen and (max-width: 1050px) {
+  .imgcv {
+    margin-left: 78vw;
+  }
+}
+
 button::before,
 button::after {
   content: "";
