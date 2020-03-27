@@ -264,25 +264,6 @@ img {
   content: var(--codecamp);
 }
 
-.cv {
-  position: absolute;
-  text-decoration: none;
-  color: #ffffff;
-  margin-left: 88vw;
-  margin-top: 4px;
-  border: 1px solid #181a1b;
-  padding: 2px 5px;
-  border-radius: 3px;
-  z-index: 100;
-}
-
-.cv:hover {
-  transition: border 0.5s ease;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .progressbar.anim {
   animation: progressbaranim 1.3s ease-in-out;
 }
@@ -1542,21 +1523,45 @@ section:before {
   }
 }
 
+/* */
 button {
   display: inline-block;
-  position: relative;
+  position: absolute;
   background: none;
   border: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   margin: 20px 30px;
-  background: rgba(0, 0, 0, 0.09);
+  background: #181a1b;
+  margin-left: -30px;
+  margin-top: 5px;
 }
 
-button > span {
+.cv {
+  position: absolute;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 88vw;
+  margin-top: 2px;
+  border: 1px solid #181a1b;
+  padding: 2px 5px;
+  border-radius: 3px;
+  z-index: 100;
+}
+
+#buttoncv {
   display: block;
-  padding: 25px 80px;
+  width: 100px;
+  height: 30px;
+  margin-top: 4px;
+  font-family: "Arial";
+  font-weight: 600;
+}
+.imgcv {
+  position: absolute;
+  margin-left: 83vw;
+  margin-top: 6px;
 }
 button::before,
 button::after {
@@ -1568,8 +1573,8 @@ button::after {
   background: #fff;
 }
 
-span::before,
-span::after {
+#buttoncv::before,
+#buttoncv::after {
   content: "";
   width: 2px;
   height: 0;
@@ -1581,8 +1586,8 @@ button:hover::before,
 button:hover::after {
   width: 100%;
 }
-button:hover span::before,
-button:hover span::after {
+button:hover #buttoncv::before,
+button:hover #buttoncv::after {
   height: 100%;
 }
 
@@ -1591,7 +1596,7 @@ button:hover span::after {
   bottom: 0;
   transition-duration: 0.4s;
 }
-.btn-5 span::after {
+.btn-5 #buttoncv::after {
   right: 0;
   top: 0;
   transition-duration: 0.4s;
@@ -1601,7 +1606,7 @@ button:hover span::after {
   top: 0;
   transition-duration: 0.4s;
 }
-.btn-5 span::before {
+.btn-5 #buttoncv::before {
   left: 0;
   bottom: 0;
   transition-duration: 0.4s;
