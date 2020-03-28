@@ -1368,7 +1368,7 @@ nav > div > ul > a:hover > li {
 
 #typewriter {
   position: absolute;
-  margin-top: 22vh;
+  margin-top: 120px;
   left: 10%;
 }
 
@@ -1566,7 +1566,7 @@ button {
   display: block;
   width: 100px;
   height: 30px;
-  margin-top: 4px;
+  margin-top: 8px;
   font-family: "Arial";
   font-weight: 600;
 }
@@ -1592,6 +1592,9 @@ button {
   }
   .cv {
     margin-left: 85vw;
+  }
+  #typewriter {
+    margin-top: 95px;
   }
 }
 
