@@ -1582,13 +1582,19 @@ button {
   }
 }
 
+@media screen and (max-width: 750px) {
+  #buttoncv {
+    width: 80px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .imgcv {
     display: initial;
-    margin-left: 68vw;
+    margin-left: 70vw;
   }
   #buttoncv {
-    width: 60px;
+    width: 70px;
   }
   .cv {
     margin-left: 85vw;
@@ -1600,10 +1606,10 @@ button {
 
 @media screen and (max-width: 400px) {
   .imgcv {
-    margin-left: 66vw;
+    margin-left: 60vw;
   }
   .cv {
-    margin-left: 85vw;
+    margin-left: 80vw;
   }
 }
 button::before,
