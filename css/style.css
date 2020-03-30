@@ -241,13 +241,6 @@ img {
   margin-top: 10px;
 }
 
-.anchor {
-  display: block;
-  height: 50px;
-  margin-top: -50px;
-  visibility: hidden;
-}
-
 .imgprofil {
   display: block;
   margin-left: 0;
@@ -1591,11 +1584,18 @@ button {
   .imgcv {
     margin-left: 82vw;
   }
+
+  #buttoncv {
+    width: 80px;
+  }
 }
 
 @media screen and (max-width: 880px) {
   #buttoncv {
     width: 70px;
+  }
+  .cv {
+    margin-left: 88vw;
   }
 }
 
