@@ -680,13 +680,17 @@ nav > div > ul > a:hover > li {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   #menuToggle {
     display: block;
     position: relative;
     top: 17px;
     left: 25px;
     z-index: 1;
+  }
+
+  #menu > a:first-of-type {
+    margin-left: -10px;
   }
 
   #menuToggle a {
@@ -1559,7 +1563,7 @@ button {
   position: absolute;
   text-decoration: none;
   color: #ffffff;
-  margin-left: 88vw;
+  margin-left: 90vw;
   margin-top: 2px;
   border: 1px solid #181a1b;
   padding: 2px 5px;
@@ -1571,10 +1575,12 @@ button {
   display: block;
   width: 100px;
   height: 30px;
-  margin-top: 8px;
+  margin-top: 5px;
   font-family: "Arial";
   font-weight: 600;
+  padding-top: 2px;
 }
+
 .imgcv {
   position: absolute;
   margin-left: 83vw;
@@ -1583,22 +1589,22 @@ button {
 
 @media screen and (max-width: 1050px) {
   .imgcv {
-    margin-left: 78vw;
+    margin-left: 82vw;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 880px) {
   #buttoncv {
     width: 70px;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
   .btn {
     margin-left: 1.5px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .imgcv {
     display: initial;
     margin-left: 68vw;
@@ -1621,6 +1627,9 @@ button {
   .cv {
     margin-left: 80vw;
   }
+}
+button {
+  border: 1px solid #777777;
 }
 button::before,
 button::after {
