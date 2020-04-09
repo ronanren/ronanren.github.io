@@ -647,15 +647,15 @@ nav > div {
 }
 
 #menu > a:first-of-type {
-  margin-left: 130px;
+  margin-left: 135px;
 }
 
-#menu > p {
+#menuToggle > p {
   position: absolute;
-  margin-top: 3px;
-  margin-left: -25px;
+  margin-top: 10px;
+  margin-left: 15px;
   font-family: "Quicksand", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 nav > div > ul {
   display: flex;
@@ -812,7 +812,7 @@ nav > div > ul > a:hover > li {
 
 /* ANIMATION BACKGROUND */
 
-#stars2 {
+#stars {
   width: 2px;
   height: 2px;
   background: transparent;
@@ -869,7 +869,7 @@ nav > div > ul > a:hover > li {
     1915px 922px #fff, 421px 1409px #fff, 113px 433px #fff;
   animation: animStar 100s linear infinite;
 }
-#stars2:after {
+#stars:after {
   content: " ";
   position: absolute;
   top: 2000px;
@@ -1159,7 +1159,11 @@ button {
   margin-left: 83vw;
   margin-top: 6px;
 }
-
+@media screen and (min-width: 850px) {
+  #menu > a:first-of-type {
+    margin-left: 160px;
+  }
+}
 @media screen and (max-width: 1050px) {
   .imgcv {
     margin-left: 82vw;
@@ -1186,8 +1190,7 @@ button {
 }
 @media screen and (max-width: 650px) {
   .imgcv {
-    display: initial;
-    margin-left: 68vw;
+    display: none;
   }
   #buttoncv {
     width: 65px;
@@ -1198,19 +1201,31 @@ button {
   #typewriter {
     margin-top: 95px;
   }
+  #menuToggle > p {
+    left: 50%;
+    transform: translateX(-90%);
+    top: -15px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .imgcv {
-    margin-left: 60vw;
-  }
   .cv {
     margin-left: 80vw;
   }
 }
+
+@media screen and (max-width: 340px) {
+  #menuToggle > p {
+    font-size: 18px;
+    top: -12px;
+    left: 47%;
+  }
+}
+
 button {
   border: 1px solid #777777;
 }
+
 button::before,
 button::after {
   content: "";
