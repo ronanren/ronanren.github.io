@@ -212,11 +212,16 @@ img {
 }
 
 .projets li {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   box-shadow: 0 10px 30px -15px #242424;
   border: 1px solid var(--dark-bar);
   border-radius: 10px;
   padding-bottom: 24px;
+  padding-top: 5px;
+}
+
+#projets {
+  margin-bottom: 25px;
 }
 
 .projets li:hover {
