@@ -77,13 +77,8 @@ main {
 .rowcompetences {
   background-color: var(--dark);
   padding-bottom: 25px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   border-radius: 10px;
-}
-
-.rowcompetences {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .rowapropos {
@@ -193,6 +188,11 @@ img {
   border-radius: 13px;
   padding: 3px;
   margin-bottom: 20px;
+  width: 90%;
+}
+
+.hardskills-bar h4 {
+  margin-left: 6px;
 }
 
 .bar {
@@ -256,7 +256,7 @@ img {
     opacity: 0;
   }
   100% {
-    width: 100%;
+    width: 90%;
     opacity: 1;
   }
 }
@@ -348,6 +348,16 @@ img {
   .projets p {
     width: 85vw;
     text-align: center;
+  }
+  .rowcompetences {
+    margin-left: 20px;
+    margin-right: 25px;
+  }
+  .progressbar {
+    margin-left: 25px;
+  }
+  .hardskills-bar h4 {
+    margin-left: 30px;
   }
 }
 @media screen and (max-width: 950px) {
@@ -460,6 +470,12 @@ img {
   #typewriter,
   #typewriter1 {
     font-size: 30px;
+  }
+  .progressbar {
+    margin-left: 10px;
+  }
+  .hardskills-bar h4 {
+    margin-left: 15px;
   }
 }
 
