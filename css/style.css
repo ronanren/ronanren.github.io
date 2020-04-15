@@ -805,7 +805,7 @@ nav > div > ul > a:hover > li {
     height: 54px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .btn {
     margin-left: 10px;
   }
