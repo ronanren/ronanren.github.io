@@ -339,12 +339,6 @@ img {
   }
 }
 
-@media screen and (max-width: 1050px) {
-  .cv {
-    margin-left: 85vw;
-    font-size: 12px;
-  }
-}
 @media screen and (max-width: 992px) {
   .rowapropos li p span {
     width: 50%;
@@ -406,9 +400,6 @@ img {
   h1 {
     font-size: 2.5em;
   }
-  .cv {
-    margin-left: 82vw;
-  }
   #typewriter,
   #typewriter1 {
     font-size: 45px;
@@ -419,9 +410,6 @@ img {
   #typewriter,
   #typewriter1 {
     font-size: 40px;
-  }
-  .imgcv {
-    display: none;
   }
 }
 
@@ -442,9 +430,6 @@ img {
 }
 
 @media screen and (max-width: 640px) {
-  .cv {
-    margin-left: 80vw;
-  }
   #typewriter,
   #typewriter1 {
     font-size: 34px;
@@ -469,9 +454,6 @@ img {
   .langue,
   .interets {
     margin-left: 5%;
-  }
-  .cv {
-    margin-left: 78vw;
   }
   .projets h4,
   .projets p {
@@ -507,18 +489,12 @@ img {
   h1 {
     font-size: 1.5em;
   }
-  .cv {
-    margin-left: 75vw;
-  }
 }
 
 @media screen and (max-width: 410px) {
   #typewriter1,
   #typewriter {
     font-size: 1em;
-  }
-  .cv {
-    margin-left: 72vw;
   }
   .rowapropos li p span {
     font-size: 13.5px;
@@ -558,9 +534,6 @@ img {
   }
   #menu > a > li {
     font-size: 16px;
-  }
-  .cv {
-    margin-left: 68vw;
   }
   #typewriter,
   #typewriter1 {
@@ -1156,18 +1129,20 @@ button {
 
 #buttoncv {
   display: block;
-  width: 100px;
+  width: 180px;
   height: 30px;
-  margin-top: 5px;
+  margin-top: 0px;
   font-family: "Arial";
   font-weight: 600;
-  padding-top: 2px;
+  color: #181a1b;
+  padding-top: 5px;
 }
 
-.imgcv {
-  position: absolute;
-  margin-left: 83vw;
-  margin-top: 6px;
+.btn-cv {
+  background-color: #ffffff;
+  padding-left: 5px;
+  right: -150px;
+  border-radius: 18px;
 }
 
 @media screen and (min-width: 850px) {
@@ -1180,27 +1155,20 @@ button {
   #menu > a:first-of-type {
     margin-left: 180px;
   }
-  .imgcv {
-    margin-left: 85vw;
+}
+
+@media screen and (max-width: 1400px) {
+  .btn-cv {
+    right: -100px;
   }
 }
 
-@media screen and (max-width: 1050px) {
-  .imgcv {
-    margin-left: 82vw;
-  }
-
+@media screen and (max-width: 890px) {
   #buttoncv {
-    width: 80px;
+    width: 160px;
   }
-}
-
-@media screen and (max-width: 880px) {
-  #buttoncv {
-    width: 70px;
-  }
-  .cv {
-    margin-left: 88vw;
+  .btn-cv {
+    right: -75px;
   }
 }
 
@@ -1210,88 +1178,38 @@ button {
   }
 }
 @media screen and (max-width: 650px) {
-  .imgcv {
-    display: none;
-  }
-  #buttoncv {
-    width: 65px;
-  }
-  .cv {
-    margin-left: 85vw;
-  }
   #typewriter {
     margin-top: 95px;
   }
   #menuToggle > p {
-    left: 50%;
+    left: 160px;
     transform: translateX(-90%);
     top: -15px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .cv {
-    margin-left: 80vw;
+@media screen and (max-width: 600px) {
+  .btn-cv {
+    right: -60px;
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 450px) {
+  .btn-cv {
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   #menuToggle > p {
     font-size: 18px;
     top: -12px;
-    left: 47%;
+    left: 135px;
   }
 }
 
-button {
-  border: 1px solid #777777;
-}
-
-button::before,
-button::after {
-  content: "";
-  width: 0;
-  height: 2px;
-  position: absolute;
-  transition: all 0.2s linear;
-  background: #fff;
-}
-
-#buttoncv::before,
-#buttoncv::after {
-  content: "";
-  width: 2px;
-  height: 0;
-  position: absolute;
-  transition: all 0.2s linear;
-  background: #fff;
-}
-button:hover::before,
-button:hover::after {
-  width: 100%;
-}
-button:hover #buttoncv::before,
-button:hover #buttoncv::after {
-  height: 100%;
-}
-
-.btn-5::after {
-  left: 0;
-  bottom: 0;
-  transition-duration: 0.4s;
-}
-.btn-5 #buttoncv::after {
-  right: 0;
-  top: 0;
-  transition-duration: 0.4s;
-}
-.btn-5::before {
-  right: 0;
-  top: 0;
-  transition-duration: 0.4s;
-}
-.btn-5 #buttoncv::before {
-  left: 0;
-  bottom: 0;
-  transition-duration: 0.4s;
+@media screen and (max-width: 370px) {
+  #menuToggle > p {
+    display: none;
+  }
 }
