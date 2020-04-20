@@ -197,6 +197,68 @@ h2::after {
   font-size: 16px;
 }
 
+.interets > p > span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.interets div {
+  width: 841px;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.interets img {
+  height: 200px;
+  width: auto;
+}
+
+@media screen and (max-width: 1530px) {
+  .interets img {
+    height: 150px;
+    width: auto;
+  }
+  .interets div {
+    width: 631px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .interets img {
+    height: 120px;
+    width: auto;
+  }
+  .interets div {
+    width: 505px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .interets img {
+    height: 100px;
+    width: auto;
+  }
+  .interets div {
+    width: 421px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .interets img {
+    height: 100px;
+    width: auto;
+  }
+  .interets div {
+    width: 211px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .interets div {
+    margin-top: 10px;
+  }
+}
+
 .social img {
   margin-bottom: 5px;
 }
@@ -475,8 +537,7 @@ h2::after {
   h1 {
     font-size: 1.6em;
   }
-  .langue,
-  .interets {
+  .langue {
     margin-left: 5%;
   }
   .projets h4,
