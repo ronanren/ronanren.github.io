@@ -428,9 +428,6 @@ h2::after {
     width: 50%;
     margin-left: -1%;
   }
-  .rowprojets {
-    padding-top: 20px;
-  }
   .rowcompetences {
     margin-left: 20px;
     margin-right: 25px;
@@ -475,7 +472,7 @@ h2::after {
   }
   .social {
     text-align: center;
-    margin-top: -15px;
+    margin-top: 0px;
     margin-left: 0px;
   }
 }
@@ -526,7 +523,7 @@ h2::after {
 
 @media screen and (max-width: 560px) {
   .rowapropos li p span {
-    width: 50%;
+    width: 55%;
     margin-left: -10%;
   }
   header h1 {
@@ -600,10 +597,10 @@ h2::after {
     margin-left: 10px;
   }
   #apropos > ul > li > p {
-    width: 200px;
+    width: 250px;
   }
   #apropos > ul > li > p > span {
-    margin-left: -70px;
+    margin-left: -60px;
   }
 }
 
@@ -612,11 +609,8 @@ h2::after {
     font-size: 12px;
   }
   .rowapropos li p span {
-    width: 36%;
-    font-size: 13.5px;
-  }
-  .projets span {
-    right: 140px;
+    width: 130px;
+    font-size: 13px;
   }
   h1 {
     font-size: 1.3em;
@@ -627,9 +621,6 @@ h2::after {
   #typewriter,
   #typewriter1 {
     font-size: 22px;
-  }
-  #apropos > ul > li > p > span {
-    width: 120px;
   }
   h2::after {
     font-size: 30px;
@@ -645,6 +636,10 @@ h2::after {
   }
   h1 {
     font-size: 1.2em;
+  }
+  .rowapropos li p span {
+    width: 120px;
+    font-size: 13px;
   }
 }
 
