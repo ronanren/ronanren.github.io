@@ -214,6 +214,10 @@ img {
   width: 50%;
 }
 
+.hardskills-bar {
+  margin-left: 3.5vw;
+}
+
 .projets h2 {
   display: inline-block;
   width: 100%;
@@ -371,6 +375,9 @@ img {
     text-align: center;
     width: 100vw;
   }
+  .hardskills-bar {
+    margin-left: 1.5vw;
+  }
 }
 @media screen and (max-width: 950px) {
   #typewriter,
@@ -496,6 +503,9 @@ img {
   }
   h1 {
     font-size: 1.5em;
+  }
+  .hardskills-bar {
+    margin-left: 0px;
   }
 }
 
