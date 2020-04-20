@@ -183,9 +183,18 @@ img {
   margin-top: 10px;
 }
 
+h2::after {
+  content: attr(data-end);
+  position: absolute;
+  font-size: 35px;
+  margin-top: -8px;
+  margin-left: 5px;
+}
+
 .interets > p {
   margin-left: 25px;
   margin-top: 25px;
+  font-size: 16px;
 }
 
 .social img {
@@ -559,6 +568,11 @@ img {
   }
   #apropos > ul > li > p > span {
     width: 120px;
+  }
+  h2::after {
+    font-size: 30px;
+    margin-top: -11px;
+    margin-left: 5px;
   }
 }
 
