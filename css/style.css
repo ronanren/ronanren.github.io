@@ -302,6 +302,8 @@ h2::after {
   border-radius: 10px;
   padding-bottom: 24px;
   padding-top: 5px;
+  background-color: #1c1d1f;
+  box-shadow: 0 5px 10px -10px #3a3a3a;
 }
 
 #projets {
@@ -309,7 +311,7 @@ h2::after {
 }
 
 .projets li:hover {
-  box-shadow: 0 10px 30px -15px #3a3a3a;
+  box-shadow: 0 10px 15px -15px #3a3a3a;
 }
 .projets img {
   margin-top: 5px;
