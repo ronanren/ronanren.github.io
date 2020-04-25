@@ -120,21 +120,29 @@ img {
   font-weight: bold;
 }
 
-.rowprojets ul {
+.rowprojets ul,
+.rowformations ul {
   list-style: none;
   padding: 15px;
   margin-bottom: 0;
 }
 
-.rowprojets li span {
+.rowprojets li span,
+.rowformations li span {
   width: 25%;
   float: left;
   font-weight: bold;
   margin-top: 9px;
 }
 
-.content-projet {
+.content-projet,
+.content-formation {
   display: table-cell;
+}
+
+.content-formation ul {
+  list-style: circle;
+  margin-left: 50px;
 }
 
 .social a {
@@ -431,7 +439,8 @@ h2::after {
     width: 50%;
     margin-left: -1%;
   }
-  .rowcompetences {
+  .rowcompetences,
+  .rowformations {
     margin-left: 20px;
     margin-right: 25px;
   }
@@ -554,6 +563,9 @@ h2::after {
   }
   .hardskills-bar h4 {
     margin-left: 15px;
+  }
+  .content-formation ul {
+    margin-left: 0px;
   }
 }
 
