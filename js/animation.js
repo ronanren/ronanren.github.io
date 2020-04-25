@@ -49,10 +49,10 @@ $(window).ready(() => {
     .deleteChars(15)
     .typeString("étudiant. 🎓")
     .pauseFor(1200)
-    .deleteChars(11)
-    .typeString("développeur. 💻")
+    .deleteChars(19)
+    .typeString("futur ingénieur logiciel. 💻")
     .pauseFor(1200)
-    .deleteAll(20)
+    .deleteAll(18)
     .typeString("Bonne visite 😉")
     .pauseFor(6000)
     .start();
