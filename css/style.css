@@ -567,8 +567,8 @@ h2::after {
 
 @media screen and (max-width: 440px) {
   .rowapropos li p span {
-    width: 60%;
-    margin-left: -25%;
+    width: 64%;
+    margin-left: -27%;
     font-size: 16px;
   }
   .projets span {
@@ -605,7 +605,7 @@ h2::after {
     width: 250px;
   }
   #apropos > ul > li > p > span {
-    margin-left: -60px;
+    margin-left: -65px;
   }
 }
 
