@@ -74,7 +74,8 @@ main {
 
 .rowapropos,
 .rowprojets,
-.rowcompetences {
+.rowcompetences,
+.rowformations {
   background-color: var(--dark);
   padding-bottom: 25px;
   margin-bottom: 50px;
@@ -119,13 +120,15 @@ img {
   font-weight: bold;
 }
 
-.rowprojets ul {
+.rowprojets ul,
+.rowformations ul {
   list-style: none;
   padding: 15px;
   margin-bottom: 0;
 }
 
-.rowprojets li span {
+.rowprojets li span,
+.rowformations li span {
   width: 25%;
   float: left;
   font-weight: bold;
@@ -430,7 +433,8 @@ h2::after {
     width: 50%;
     margin-left: -1%;
   }
-  .rowcompetences {
+  .rowcompetences,
+  .rowformations {
     margin-left: 20px;
     margin-right: 25px;
   }
@@ -441,10 +445,7 @@ h2::after {
     margin-left: 30px;
   }
   .content-formation {
-    padding: 0px 40px;
-    padding-top: 160px;
-    text-align: center;
-    width: 100vw;
+    padding: 0px 0px 0px 10px;
   }
   .hardskills-bar {
     margin-left: 1.5vw;
