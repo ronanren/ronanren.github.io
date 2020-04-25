@@ -120,22 +120,20 @@ img {
   font-weight: bold;
 }
 
-.rowprojets ul,
-.rowformations ul {
+.rowprojets ul {
   list-style: none;
   padding: 15px;
   margin-bottom: 0;
 }
 
-.rowprojets li span,
-.rowformations li span {
+.rowprojets li span {
   width: 25%;
   float: left;
   font-weight: bold;
   margin-top: 9px;
 }
 
-.content-formation {
+.content-projet {
   display: table-cell;
 }
 
@@ -150,7 +148,7 @@ img {
   margin-left: 45px;
 }
 
-.content-formation ul {
+.content-projet ul {
   padding: 0;
 }
 
@@ -164,12 +162,12 @@ img {
   margin-right: 15px;
   margin-left: 15px;
 }
-.content-formation > h4 > a {
+.content-projet > h4 > a {
   text-decoration: none;
   color: var(--white);
 }
 
-.content-formation > h4 > a:hover {
+.content-projet > h4 > a:hover {
   color: rgb(155, 155, 155);
 }
 
@@ -416,7 +414,7 @@ h2::after {
     width: 280px;
     padding-right: 100px;
   }
-  .projets .content-formation {
+  .projets .content-projet {
     padding-top: 20px;
   }
 }
@@ -433,8 +431,7 @@ h2::after {
     width: 50%;
     margin-left: -1%;
   }
-  .rowcompetences,
-  .rowformations {
+  .rowcompetences {
     margin-left: 20px;
     margin-right: 25px;
   }
@@ -444,8 +441,11 @@ h2::after {
   .hardskills-bar h4 {
     margin-left: 30px;
   }
-  .content-formation {
-    padding: 0px 0px 0px 10px;
+  .content-projet {
+    padding: 0px 40px;
+    padding-top: 160px;
+    text-align: center;
+    width: 100vw;
   }
   .hardskills-bar {
     margin-left: 1.5vw;
@@ -568,8 +568,8 @@ h2::after {
 
 @media screen and (max-width: 440px) {
   .rowapropos li p span {
-    width: 64%;
-    margin-left: -27%;
+    width: 60%;
+    margin-left: -25%;
     font-size: 16px;
   }
   .projets span {
@@ -606,7 +606,7 @@ h2::after {
     width: 250px;
   }
   #apropos > ul > li > p > span {
-    margin-left: -65px;
+    margin-left: -60px;
   }
 }
 
