@@ -96,7 +96,7 @@ img {
 
 .rowapropos ul {
   list-style: none;
-  margin-top: -260px;
+  margin-top: -270px;
   margin-left: 400px;
   padding: 15px;
 }
@@ -560,6 +560,9 @@ h2::after {
   h1 {
     font-size: 1.6em;
   }
+  .rowapropos li p span {
+    margin-left: -14%;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -606,7 +609,7 @@ h2::after {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   h2 {
     font-size: 12px;
   }

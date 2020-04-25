@@ -50,10 +50,13 @@ $(window).ready(() => {
     .typeString("étudiant. 🎓")
     .pauseFor(1200)
     .deleteChars(19)
+    .typeString("en recherche d'alternance . 👔")
+    .pauseFor(1200)
+    .deleteAll(18)
     .typeString("futur ingénieur logiciel. 💻")
     .pauseFor(1200)
     .deleteAll(18)
-    .typeString("Bonne visite 😉")
+    .typeString("bonne visite 😉")
     .pauseFor(6000)
     .start();
 });
