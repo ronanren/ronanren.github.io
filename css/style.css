@@ -840,7 +840,7 @@ nav > div > ul > a:hover > li {
   }
   #menuToggle input:checked ~ span:first-of-type {
     opacity: 1;
-    background: #232323;
+    background: #cdcdcd;
     transform: rotate(45deg) translate(-2px, -1px);
   }
   #menuToggle input:checked ~ #thirdspan {
@@ -849,18 +849,18 @@ nav > div > ul > a:hover > li {
   }
   #menuToggle input:checked ~ span:first-of-type + span {
     opacity: 1;
-    background: #232323;
+    background: #cdcdcd;
     transform: rotate(-45deg) translate(-7px, 1px);
   }
 
   #menu {
     position: absolute;
-    width: 50vw;
-    top: 2px;
-    margin: -100px 0 0 -50px;
+    width: 55vw;
+    top: -100px;
+    margin: 50px 0 0 -64px;
     padding: 50px;
-    padding-top: 100vh;
-    background: #ededed;
+    padding-top: 800px;
+    background: #1c1e1f;
     list-style-type: none;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
@@ -870,10 +870,9 @@ nav > div > ul > a:hover > li {
 
   #menu li {
     padding: 10px 0;
-    margin-top: -75vh;
-    margin-left: -5%;
-    font-size: 18px;
-    color: #181a1b;
+    margin-top: -700px;
+    font-size: 22px;
+    color: #fff;
     text-align: left;
   }
 
@@ -890,7 +889,7 @@ nav > div > ul > a:hover > li {
   }
 
   #menuToggle > ul > a {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: -10px;
   }
   nav {
