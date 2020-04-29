@@ -580,6 +580,10 @@ h2::after {
   .rowapropos li p span {
     margin-left: -14%;
   }
+  #typewriter1,
+  #typewriter {
+    font-size: 1.4em;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -597,6 +601,10 @@ h2::after {
   .hardskills-bar {
     margin-left: 0px;
   }
+  #typewriter1,
+  #typewriter {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -610,10 +618,6 @@ h2::after {
 }
 
 @media screen and (max-width: 380px) {
-  #typewriter,
-  #typewriter1 {
-    font-size: 24px;
-  }
   .social a {
     margin-right: 10px;
     margin-left: 10px;
@@ -634,15 +638,8 @@ h2::after {
     width: 130px;
     font-size: 13px;
   }
-  h1 {
-    font-size: 1.3em;
-  }
   #menu > a > li {
     font-size: 16px;
-  }
-  #typewriter,
-  #typewriter1 {
-    font-size: 22px;
   }
   h2::after {
     font-size: 30px;
@@ -655,9 +652,6 @@ h2::after {
   .rowapropos li p span {
     width: 34%;
     font-size: 13px;
-  }
-  h1 {
-    font-size: 1.2em;
   }
   .rowapropos li p span {
     width: 120px;
