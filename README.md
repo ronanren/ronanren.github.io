@@ -22,7 +22,7 @@
 
 # Licence
 
-MIT
+<a href="https://github.com/ronanren/ronanren.github.io/blob/master/LICENSE" target="_blank">MIT</a>
 
 # Contactez-moi
 
