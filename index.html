@@ -1,369 +1,300 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Ronan Renoux</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v2.1.3/css/unicons.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <meta name="description" content="Mon site personnel" />
-    <link rel="icon" href="logo.ico" />
-    <script
-      type="text/javascript"
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
-    ></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/grapheme-splitter@1.0.4/index.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="js/animation.js"></script>
-  </head>
 
-  <body>
-    <nav role="navigation">
-      <div id="menuToggle">
-        <input class="checkbox" type="checkbox" />
-        <span></span>
-        <span></span>
-        <span id="thirdspan"></span>
-        <p>Ronan Renoux</p>
-        <ul id="menu">
-          <a href="#apropos" class="btn" onclick="removeMenu()">
-            <li>À propos</li>
-          </a>
-          <a href="#projets" class="btn" onclick="removeMenu()">
-            <li>Projets</li>
-          </a>
-          <a href="#competences" class="btn" onclick="removeMenu()">
-            <li>Compétences</li>
-          </a>
-        </ul>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ronan Renoux</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.3/css/unicons.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta name="description" content="Mon site personnel" />
+  <link rel="icon" href="logo.ico" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/grapheme-splitter@1.0.4/index.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="js/animation.js"></script>
+</head>
 
-      <a
-        href="img/CV_Ronan_Renoux.pdf"
-        rel="noreferrer"
-        target="_blank"
-        class="cv"
-      >
-        <button class="btn-cv">
-          <span id="buttoncv">Télécharger mon CV</span>
-        </button>
-      </a>
-    </nav>
-
-    <div id="stars"></div>
-
-    <div id="title">
-      <span>
-        <div>
-          <h1 class="appear" id="typewriter1" data-delai="400">Bienvenue,</h1>
-          <h1 class="appear" id="typewriter" data-delai="400"></h1>
-        </div>
-      </span>
+<body>
+  <nav role="navigation">
+    <div id="menuToggle">
+      <input class="checkbox" type="checkbox" />
+      <span></span>
+      <span></span>
+      <span id="thirdspan"></span>
+      <p>Ronan Renoux</p>
+      <ul id="menu">
+        <a href="#apropos" class="btn" onclick="removeMenu()">
+          <li>À propos</li>
+        </a>
+        <a href="#projets" class="btn" onclick="removeMenu()">
+          <li>Projets</li>
+        </a>
+        <a href="#competences" class="btn" onclick="removeMenu()">
+          <li>Compétences</li>
+        </a>
+      </ul>
     </div>
-    <a href="#apropos"><section></section></a>
-    <main class="container-fluid">
-      <div class="row">
-        <div id="apropos" class="rowapropos col-md-10 col-md-offset-1">
-          <h2 class="appear" data-delai="200" data-end="👦🏻">À PROPOS</h2>
-          <img
-            src="img/profile.png"
-            alt="image de profile"
-            class="imgprofil appear"
-            data-delai="400"
-          />
+
+    <a href="img/CV_Ronan_Renoux.pdf" rel="noreferrer" target="_blank" class="cv">
+      <button class="btn-cv">
+        <span id="buttoncv">Télécharger mon CV</span>
+      </button>
+    </a>
+  </nav>
+
+  <div id="stars"></div>
+
+  <div id="title">
+    <span>
+      <div>
+        <h1 class="appear" id="typewriter1" data-delai="400">Bienvenue,</h1>
+        <h1 class="appear" id="typewriter" data-delai="400"></h1>
+      </div>
+    </span>
+  </div>
+  <a href="#apropos">
+    <section></section>
+  </a>
+  <main class="container-fluid">
+    <div class="row">
+      <div id="apropos" class="rowapropos col-md-10 col-md-offset-1">
+        <h2 class="appear" data-delai="200" data-end="👦🏻">À PROPOS</h2>
+        <img src="img/profile.png" alt="image de profile" class="imgprofil appear" data-delai="400" />
+        <ul>
+          <li class="appear" data-delai="700">
+            <p><span>📋 Nom</span>Ronan Renoux</p>
+            <p class="age"></p>
+            <p><span>📍 Localisation</span>Bretagne, France</p>
+            <p><span>📞 Téléphone</span>07 88 81 27 47</p>
+            <p>
+              <span>📧 E-mail</span><a href="mailto:renouxpro@gmail.com">renouxpro@gmail.com</a>
+            </p>
+            <p><span>🚀 Déplacement</span>Permis B</p>
+          </li>
+        </ul>
+        <p class="social appear" data-delai="400">
+          <a href="https://github.com/ronanren" rel="noreferrer" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/ronanrenoux/" rel="noreferrer" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+          <a href="https://www.freecodecamp.org/ronanren" rel="noreferrer" target="_blank"><i class="fa fa-free-code-camp fa-3x"></i></a>
+          <a href="https://twitter.com/Ronanren" rel="noreferrer" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="rowformations col-md-10 col-md-offset-1">
+        <div id="formations" class="formation appear" data-delai="200">
+          <h2 data-end="🎓">Formations</h2>
           <ul>
-            <li class="appear" data-delai="700">
-              <p><span>📋 Nom</span>Ronan Renoux</p>
-              <p><span>⌚ Age</span>18 Ans</p>
-              <p><span>📍 Localisation</span>Bretagne, France</p>
-              <p><span>📞 Téléphone</span>07 88 81 27 47</p>
-              <p>
-                <span>📧 E-mail</span
-                ><a href="mailto:renouxpro@gmail.com">renouxpro@gmail.com</a>
-              </p>
-              <p><span>🚀 Déplacement</span>Permis B</p>
+            <li>
+              <span class="appear" data-delai="400">2020 - 2021</span>
+              <div class="content-formation appear" data-delai="700">
+                <h4>2ème Année - Diplôme universitaire de technologie</h4>
+                <p>Option informatique</p>
+                <p>Lannion, Bretagne, France</p>
+                <p>En alternance au service SIG de Rennes Métropole :</p>
+                <ul>
+                  <li><b>Web :</b> PHP, Symfony, Javascript</li>
+                  <li><b>Base de données :</b> PostgreSQL</li>
+                  <li><b>Gestion :</b> Git, docker</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="appear" data-delai="400">2019 - 2020</span>
+              <div class="content-formation appear" data-delai="700">
+                <h4>1re Année - Diplôme universitaire de technologie</h4>
+                <p>Option informatique</p>
+                <p>Lannion, Bretagne, France</p>
+                <ul>
+                  <li><b>Algorithmique :</b> Java, C, Python, structures de données</li>
+                  <li><b>Web :</b> HTML5/CSS3, Bootstrap</li>
+                  <li><b>Système :</b> Unix, Bash, AWK, Sed</li>
+                  <li><b>Base de données :</b> PostgreSQL</li>
+                  <li><b>Gestion :</b> Git, UML</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span class="appear" data-delai="400">2016 - 2019</span>
+              <div class="content-formation appear" data-delai="700">
+                <h4>Baccalauréat Scientifique</h4>
+                <p>spécialité ISN (Informatique et Sciences du Numérique)</p>
+                <p>Saint-Grégoire, Bretagne, France</p>
+              </div>
             </li>
           </ul>
-          <p class="social appear" data-delai="400">
-            <a
-              href="https://github.com/ronanren"
-              rel="noreferrer"
-              target="_blank"
-              ><i class="fa fa-github fa-3x"></i></a>
-            <a
-              href="https://www.linkedin.com/in/ronanrenoux/"
-              rel="noreferrer"
-              target="_blank"
-              ><i class="fa fa-linkedin fa-3x"></i></a>
-            <a
-              href="https://www.freecodecamp.org/ronanren"
-              rel="noreferrer"
-              target="_blank"
-              ><i class="fa fa-free-code-camp fa-3x"></i></a>
-            <a
-              href="https://twitter.com/Ronanren"
-              rel="noreferrer"
-              target="_blank"
-              ><i class="fa fa-twitter fa-3x"></i></a>
-          </p>
-        </div>  
-      </div>
-      <div class="row">
-        <div class="rowformations col-md-10 col-md-offset-1">
-          <div id="formations" class="formation appear" data-delai="200">
-            <h2 data-end="🎓">Formations</h2>
-            <ul>
-              <li>
-                <span class="appear" data-delai="400">2020 - 2021</span>
-                <div class="content-formation appear" data-delai="700">
-                  <h4>2ème Année - Diplôme universitaire de technologie</h4>
-                  <p>Option informatique</p>
-                  <p>Lannion, Bretagne, France</p>
-                  <p>En alternance au service SIG de Rennes Métropole :</p>
-                  <ul>
-                    <li><b>Web :</b> PHP, Symfony, Javascript</li>
-                    <li><b>Base de données :</b> PostgreSQL</li>
-                    <li><b>Gestion :</b> Git, docker</li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <span class="appear" data-delai="400">2019 - 2020</span>
-                <div class="content-formation appear" data-delai="700">
-                  <h4>1re Année - Diplôme universitaire de technologie</h4>
-                  <p>Option informatique</p>
-                  <p>Lannion, Bretagne, France</p>
-                  <ul>
-                    <li><b>Algorithmique :</b> Java, C, Python, structures de données</li>
-                    <li><b>Web :</b> HTML5/CSS3, Bootstrap</li>
-                    <li><b>Système :</b> Unix, Bash, AWK, Sed</li>
-                    <li><b>Base de données :</b> PostgreSQL</li>
-                    <li><b>Gestion :</b> Git, UML</li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <span class="appear" data-delai="400">2016 - 2019</span>
-                <div class="content-formation appear" data-delai="700">
-                  <h4>Baccalauréat Scientifique</h4>
-                  <p>spécialité ISN (Informatique et Sciences du Numérique)</p>
-                  <p>Saint-Grégoire, Bretagne, France</p>
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="rowprojets col-md-10 col-md-offset-1">
-          <div class="projets appear" data-delai="200">
-            <h2 id="projets" data-end="👨🏻‍💻">Projets</h2>
-            <ul>
-              <li class="appear" data-delai="200">
-                <span><a href="https://github.com/ronanren/Covid19bot" rel="noreferrer" target="_blank"><img
-                      src="img/Projet-covid.png" alt="Projet Noteload" width="200px" class="imageprojet" /></a></span>
-                <div class="content-projet appear" data-delai="400">
-                  <h4>
-                    <a href="https://github.com/ronanren/Covid19bot" rel="noreferrer" target="_blank">Développement d'un bot permettant de donner chaque jour les statistiques du COVID-19 en France
-                    </a></h4>
-                  <p>Outils : Python</p>
-                  <p>Acquis : autonomie, rigueur</p>
-                </div>
-              </li>
+    </div>
+    <div class="row">
+      <div class="rowprojets col-md-10 col-md-offset-1">
+        <div class="projets appear" data-delai="200">
+          <h2 id="projets" data-end="👨🏻‍💻">Projets</h2>
+          <ul>
+            <li class="appear" data-delai="200">
+              <span><a href="https://github.com/ronanren/Covid19bot" rel="noreferrer" target="_blank"><img src="img/Projet-covid.png"
+                    alt="Projet Noteload" width="200px" class="imageprojet" /></a></span>
+              <div class="content-projet appear" data-delai="400">
+                <h4>
+                  <a href="https://github.com/ronanren/Covid19bot" rel="noreferrer" target="_blank">Développement d'un bot permettant de donner chaque
+                    jour les statistiques du COVID-19 en France
+                  </a>
+                </h4>
+                <p>Outils : Python</p>
+                <p>Acquis : autonomie, rigueur</p>
+              </div>
+            </li>
 
-              <li class="appear" data-delai="200">
-                <span
-                  ><a
-                    href="https://github.com/ronanren/noteload"
-                    rel="noreferrer"
-                    target="_blank"
-                    ><img
-                      src="img/Projet-Noteload.png"
-                      alt="Projet Noteload"
-                      width="200px"
-                      class="imageprojet" /></a
-                ></span>
-                <div class="content-projet appear" data-delai="400">
-                  <h4>
-                    <a href="https://github.com/ronanren/noteload" rel="noreferrer" target="_blank">Développement d'un système d'alerte des nouvelles notes
-                  </a></h4>
-                  <p>Outils : Python, MySQL</p>
-                  <p>Acquis : travail en équipe, autonomie, rigueur</p>
-                </div>
-              </li>
+            <li class="appear" data-delai="200">
+              <span><a href="https://github.com/ronanren/noteload" rel="noreferrer" target="_blank"><img src="img/Projet-Noteload.png"
+                    alt="Projet Noteload" width="200px" class="imageprojet" /></a></span>
+              <div class="content-projet appear" data-delai="400">
+                <h4>
+                  <a href="https://github.com/ronanren/noteload" rel="noreferrer" target="_blank">Développement d'un système d'alerte des nouvelles
+                    notes
+                  </a>
+                </h4>
+                <p>Outils : Python, MySQL</p>
+                <p>Acquis : travail en équipe, autonomie, rigueur</p>
+              </div>
+            </li>
 
-              <li class="appear" data-delai="200">
-                <span
-                  ><a
-                    href="https://github.com/ronanren/site-ppp"
-                    rel="noreferrer"
-                    target="_blank"
-                    ><img
-                      src="img/Projet-site-ppp.png"
-                      alt="Projet site ppp"
-                      width="200px"
-                      class="imageprojet" /></a
-                ></span>
-                <div class="content-projet appear" data-delai="400">
-                  <h4>
-                    <a href="https://github.com/ronanren/site-ppp" rel="noreferrer" target="_blank">Conception et développement d’un site web sur le thème de
+            <li class="appear" data-delai="200">
+              <span><a href="https://github.com/ronanren/site-ppp" rel="noreferrer" target="_blank"><img src="img/Projet-site-ppp.png"
+                    alt="Projet site ppp" width="200px" class="imageprojet" /></a></span>
+              <div class="content-projet appear" data-delai="400">
+                <h4>
+                  <a href="https://github.com/ronanren/site-ppp" rel="noreferrer" target="_blank">Conception et développement d’un site web sur le
+                    thème de
                     l'informatique et de la santé</a>
-                  </h4>
-                  <p>Outils : HTML, CSS, Javascript, Blender</p>
-                  <p>
-                    Acquis : travail en équipe, ponctualité, site sélectionné et
-                    présenté à des professionnels
-                  </p>
-                </div>
-              </li>
+                </h4>
+                <p>Outils : HTML, CSS, Javascript, Blender</p>
+                <p>
+                  Acquis : travail en équipe, ponctualité, site sélectionné et
+                  présenté à des professionnels
+                </p>
+              </div>
+            </li>
 
-              <li class="appear" data-delai="200">
-                <span
-                  ><a
-                    href="https://github.com/ronanren/toDoList"
-                    rel="noreferrer"
-                    target="_blank"
-                    ><img
-                      src="img/Projet-todolist.png"
-                      alt="Projet application To-Do list"
-                      width="200px"
-                      class="imageprojet" /></a
-                ></span>
-                <div class="content-projet appear" data-delai="400">
-                  <h4>
-                    <a href="https://github.com/ronanren/toDoList" rel="noreferrer" target="_blank">Développement d’une application de gestionnaire de tâches
+            <li class="appear" data-delai="200">
+              <span><a href="https://github.com/ronanren/toDoList" rel="noreferrer" target="_blank"><img src="img/Projet-todolist.png"
+                    alt="Projet application To-Do list" width="200px" class="imageprojet" /></a></span>
+              <div class="content-projet appear" data-delai="400">
+                <h4>
+                  <a href="https://github.com/ronanren/toDoList" rel="noreferrer" target="_blank">Développement d’une application de gestionnaire de
+                    tâches
                     To-Do list</a>
-                  </h4>
-                  <p>Outils : React Native, Javascript, HTML, CSS</p>
-                  <p>Acquis : autonomie</p>
-                </div>
-              </li>
+                </h4>
+                <p>Outils : React Native, Javascript, HTML, CSS</p>
+                <p>Acquis : autonomie</p>
+              </div>
+            </li>
 
-              <li class="appear" data-delai="200">
-                <span
-                  ><a
-                    href="https://github.com/ronanren/Ballium"
-                    rel="noreferrer"
-                    target="_blank"
-                    ><img
-                      src="img/Projet-Ballium.png"
-                      alt="Projet jeu ballium"
-                      width="200px"
-                      class="imageprojet" /></a
-                ></span>
-                <div class="content-projet appear" data-delai="400">
-                  <h4>
-                    <a href="https://github.com/ronanren/Ballium" rel="noreferrer" target="_blank">Conception et développement d’un jeu avec un système
+            <li class="appear" data-delai="200">
+              <span><a href="https://github.com/ronanren/Ballium" rel="noreferrer" target="_blank"><img src="img/Projet-Ballium.png"
+                    alt="Projet jeu ballium" width="200px" class="imageprojet" /></a></span>
+              <div class="content-projet appear" data-delai="400">
+                <h4>
+                  <a href="https://github.com/ronanren/Ballium" rel="noreferrer" target="_blank">Conception et développement d’un jeu avec un système
                     d'enregistrement des scores</a>
-                  </h4>
-                  <p>Outils : Python, HTML, CSS, PHP, MySQL</p>
-                  <p>Acquis : travail en équipe</p>
-                </div>
-              </li>
-            </ul>
-          </div>
+                </h4>
+                <p>Outils : Python, HTML, CSS, PHP, MySQL</p>
+                <p>Acquis : travail en équipe</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-        <div class="row">
-          <div class="rowcompetences col-md-10 col-md-offset-1 col-10 col-offset-1">
-            <div class="hardskills" id="competences">
-              <h2 class="appear" data-delai="200" data-end="📚">COMPÉTENCES</h2>
-              <div class="hardskills-bar">
-                
-                <div class="col-md-6">
-                  <h4 class="appear" data-delai="400">Python</h4>
-                  <div class="progressbar">
-                    <div class="bar">80</div>
-                  </div>
-                  <h4 class="appear" data-delai="400">Java</h4>
-                  <div class="progressbar">
-                    <div class="bar">85</div>
-                  </div>
-                  <h4 class="appear" data-delai="400">PostgreSQL</h4>
-                  <div class="progressbar">
-                    <div class="bar">60</div>
-                  </div>
-                  <h4 class="appear" data-delai="400">Git</h4>
-                  <div class="progressbar">
-                    <div class="bar">80</div>
-                  </div>
-                  <h4 class="appear" data-delai="400">Unix/Bash</h4>
-                  <div class="progressbar">
-                    <div class="bar">90</div>
-                  </div>
-              </div>
-                <div class="col-md-6">
-                  <h4 class="appear" data-delai="400">C</h4>
-                  <div class="progressbar">
-                    <div class="bar">90</div>
-                  </div>
-                  <h4 class="appear" data-delai="400">Javascript</h4>
-                  <div class="progressbar">
-                    <div class="bar">80</div>
-                  </div>
-                  <h4 class="appear" data-delai="400">HTML/CSS</h4>
-                  <div class="progressbar">
-                    <div class="bar">90</div>
-                  </div>  
-                  <h4 class="appear" data-delai="400">PHP</h4>
-                  <div class="progressbar">
-                    <div class="bar">60</div>
-                  </div>
-                  <h4 class="appear" data-delai="400">UML</h4>
-                  <div class="progressbar">
-                    <div class="bar">60</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div id="apropos" class="rowformations col-md-10 col-md-offset-1">
-            <h2 class="appear" data-delai="200" data-end="🎧">Centres d'intérêts</h2>
-            <div class="interets appear" data-delai="400">
-              <p>
-                <span>🏋️‍♂️ Musculation</span> depuis 2 ans
-              </p>
-              <p>
-                <span>🏃‍♂️ Athlétisme</span> pendant 6 ans avec du cross en parallèle
-              </p>
-              <p>
-                <span>🎥 Séries :</span>
-                <div class="appear" data-delai="400">
-                  <img src="img/mrrobot.jpg" alt="Mr. Robot"><img src="img/siliconvalley.jpg" alt="Silicon Valley"><img
-                    src="img/strangerthings.png" alt="Stranger Things"><img src="img/thendofthefuckingworld.jpg"
-                    alt="The End of the F***ing World"><img src="img/13reasonswhy.jpg" alt="13 Reasons Why"><img
-                    src="img/you.png" alt="You">
-                </div>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+    <div class="row">
+      <div class="rowcompetences col-md-10 col-md-offset-1 col-10 col-offset-1">
+        <div class="hardskills" id="competences">
+          <h2 class="appear" data-delai="200" data-end="📚">COMPÉTENCES</h2>
+          <div class="hardskills-bar">
 
-      <div class="progress-wrap">
-        <svg
-          class="progress-circle svg-content"
-          width="100%"
-          height="100%"
-          viewBox="-1 -1 102 102"
-        >
-          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
+            <div class="col-md-6">
+              <h4 class="appear" data-delai="400">Python</h4>
+              <div class="progressbar">
+                <div class="bar">80</div>
+              </div>
+              <h4 class="appear" data-delai="400">Java</h4>
+              <div class="progressbar">
+                <div class="bar">85</div>
+              </div>
+              <h4 class="appear" data-delai="400">PostgreSQL</h4>
+              <div class="progressbar">
+                <div class="bar">60</div>
+              </div>
+              <h4 class="appear" data-delai="400">Git</h4>
+              <div class="progressbar">
+                <div class="bar">80</div>
+              </div>
+              <h4 class="appear" data-delai="400">Unix/Bash</h4>
+              <div class="progressbar">
+                <div class="bar">90</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h4 class="appear" data-delai="400">C</h4>
+              <div class="progressbar">
+                <div class="bar">90</div>
+              </div>
+              <h4 class="appear" data-delai="400">Javascript</h4>
+              <div class="progressbar">
+                <div class="bar">80</div>
+              </div>
+              <h4 class="appear" data-delai="400">HTML/CSS</h4>
+              <div class="progressbar">
+                <div class="bar">90</div>
+              </div>
+              <h4 class="appear" data-delai="400">PHP</h4>
+              <div class="progressbar">
+                <div class="bar">60</div>
+              </div>
+              <h4 class="appear" data-delai="400">UML</h4>
+              <div class="progressbar">
+                <div class="bar">60</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
-    <script src="js/app.js"></script>
-  </body>
+    </div>
+    <div class="row">
+      <div id="apropos" class="rowformations col-md-10 col-md-offset-1">
+        <h2 class="appear" data-delai="200" data-end="🎧">Centres d'intérêts</h2>
+        <div class="interets appear" data-delai="400">
+          <p>
+            <span>🏋️‍♂️ Musculation</span> depuis 2 ans
+          </p>
+          <p>
+            <span>🏃‍♂️ Athlétisme</span> pendant 6 ans avec du cross en parallèle
+          </p>
+          <p>
+            <span>🎥 Séries :</span>
+          <div class="appear" data-delai="400">
+            <img src="img/mrrobot.jpg" alt="Mr. Robot"><img src="img/siliconvalley.jpg" alt="Silicon Valley"><img src="img/strangerthings.png"
+              alt="Stranger Things"><img src="img/thendofthefuckingworld.jpg" alt="The End of the F***ing World"><img src="img/13reasonswhy.jpg"
+              alt="13 Reasons Why"><img src="img/you.png" alt="You">
+          </div>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+
 </html>

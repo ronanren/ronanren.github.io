@@ -45,3 +45,7 @@ $(document).ready(function() {
 function removeMenu() {
   $(".checkbox").click();
 }
+
+/* AGE */
+age = Math.abs(new Date(Date.now() - new Date(2001, 6, 8).getTime()).getUTCFullYear() - 1970);
+$('.age').append("<span>⌚ Age</span>" + age + " Ans");
