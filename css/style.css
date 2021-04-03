@@ -216,6 +216,19 @@ h2::after {
   margin-left: 5px;
 }
 
+#h2-certification {
+  margin-top: 380px;
+}
+
+.certifications {
+  margin-left: 25px;
+}
+
+.certifications > h4 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
 .interets > p {
   margin-left: 25px;
   margin-top: 25px;
