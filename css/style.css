@@ -27,9 +27,6 @@ body {
   --grey: #d4d4d4;
   --grey-light: #4c4d54;
   --border: rgb(56, 56, 56);
-  --github: url(../img/github-dark.png);
-  --linkedin: url(../img/linkedin-dark.png);
-  --codecamp: url(../img/codecamp-dark.png);
 }
 
 /* TEXT */
@@ -192,7 +189,7 @@ img {
 }
 
 .content-projet > h4 > a:hover {
-  color: rgb(155, 155, 155);
+  text-decoration: underline;
 }
 
 .dot {
@@ -218,15 +215,21 @@ h2::after {
 
 #h2-certification {
   margin-top: 380px;
+  margin-bottom: 20px;
 }
 
 .certifications {
   margin-left: 25px;
 }
 
-.certifications > h4 {
-  margin-top: 20px;
+.certifications > a > h4 {
+  margin-top: 25px;
   font-size: 16px;
+}
+
+.certifications > a:hover {
+  color: var(--white);
+  text-decoration: underline;
 }
 
 .interets > p {
