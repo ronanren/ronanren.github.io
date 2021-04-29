@@ -13,9 +13,11 @@
 
 - Sections :
   - À propos
-  - Centres d'intérêts
+  - Formation
   - Projets
   - Compétences
+  - Certifications
+  - Centres d'intérêts
 - Possibilité de télécharger mon CV 📋
 - Accès à mes différents réseaux sociaux (Github, Linkedin, Freecodecamp, et Twitter)
 - Description de mes différents projets
