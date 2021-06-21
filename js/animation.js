@@ -43,7 +43,7 @@ $(window).ready(() => {
     loop: true,
     stringSplitter,
   })
-    .pauseFor(1200)
+    .pauseFor(400)
     .typeString("je suis Ronan Renoux. 👋")
     .pauseFor(1200)
     .deleteChars(23)
