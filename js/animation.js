@@ -38,8 +38,8 @@ $(window).ready(() => {
   };
 
   new Typewriter("#typewriter", {
-    delay: 48,
-    deleteSpeed: 15,
+    delay: 35,
+    deleteSpeed: 12,
     loop: true,
     stringSplitter,
   })
@@ -49,7 +49,7 @@ $(window).ready(() => {
     .deleteChars(23)
     .typeString("Étudiant en alternance. 🎓")
     .pauseFor(1200)
-    .deleteAll(18)
+    .deleteChars(25)
     .typeString("bonne visite 😉")
     .pauseFor(6000)
     .start();
