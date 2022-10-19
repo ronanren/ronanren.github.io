@@ -30,7 +30,7 @@ $(window).scroll(function () {
 });
 
 /* ANIMATION TEXTE H1 */
-
+/*
 $(window).ready(() => {
   const stringSplitter = (string) => {
     const splitter = new GraphemeSplitter();
@@ -53,4 +53,4 @@ $(window).ready(() => {
     .typeString("bonne visite 😉")
     .pauseFor(6000)
     .start();
-});
+}); */

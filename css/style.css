@@ -32,12 +32,11 @@ body {
 /* TEXT */
 h1 {
   color: var(--white);
-  margin-left: 60px;
   float: left;
   margin-top: 50px;
   line-height: 38px;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -618,14 +617,16 @@ h2::after {
   }
   #typewriter1,
   #typewriter {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin-left: 5px;
   }
 }
 
 @media screen and (max-width: 410px) {
   #typewriter1,
   #typewriter {
-    font-size: 1em;
+    font-size: 0.8em;
+    margin-left: 5px;
   }
   .rowapropos li p span {
     font-size: 13.5px;
@@ -1041,12 +1042,12 @@ nav > div > ul > a:hover > li {
   font-weight: 300;
   font-size: 20px;
   letter-spacing: 3px;
-  margin-top: -60px;
-  padding-left: 25vw;
 }
+
 #typewriter1 {
-  position: absolute;
-  left: 10%;
+  line-height: 1.2;
+  margin-top: -4vw;
+  width: 100%;
 }
 
 #typewriter {
