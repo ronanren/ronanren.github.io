@@ -7,6 +7,7 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow-x: hidden;
 }
+
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -56,6 +57,7 @@ span,
 li {
   color: var(--white);
 }
+
 p {
   color: var(--white);
   font-size: 14px;
@@ -96,12 +98,7 @@ img {
   list-style: none;
   margin-top: -260px;
   margin-left: 400px;
-  padding: 15px;
-}
-
-.rowapropos > img {
-  margin-top: 20px;
-  margin-left: 25px;
+  padding: 10px;
 }
 
 .rowapropos li p {
@@ -182,12 +179,13 @@ img {
   margin-right: 15px;
   margin-left: 15px;
 }
-.content-projet > h4 > a {
+
+.content-projet>h4>a {
   text-decoration: none;
   color: var(--white);
 }
 
-.content-projet > h4 > a:hover {
+.content-projet>h4>a:hover {
   text-decoration: underline;
 }
 
@@ -220,23 +218,23 @@ h2::after {
   margin-left: 25px;
 }
 
-.certifications > a > h4 {
+.certifications>a>h4 {
   margin-top: 25px;
   font-size: 16px;
 }
 
-.certifications > a:hover {
+.certifications>a:hover {
   color: var(--white);
   text-decoration: underline;
 }
 
-.interets > p {
+.interets>p {
   margin-left: 25px;
   margin-top: 25px;
   font-size: 16px;
 }
 
-.interets > p > span {
+.interets>p>span {
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -258,6 +256,7 @@ h2::after {
     height: 150px;
     width: auto;
   }
+
   .interets div {
     width: 631px;
   }
@@ -268,6 +267,7 @@ h2::after {
     height: 120px;
     width: auto;
   }
+
   .interets div {
     width: 505px;
   }
@@ -278,6 +278,7 @@ h2::after {
     height: 100px;
     width: auto;
   }
+
   .interets div {
     width: 421px;
   }
@@ -288,6 +289,7 @@ h2::after {
     height: 100px;
     width: auto;
   }
+
   .interets div {
     width: 211px;
   }
@@ -352,6 +354,7 @@ h2::after {
 .projets li:hover {
   box-shadow: 0 10px 15px -15px #3a3a3a;
 }
+
 .projets img {
   margin-top: 5px;
   max-width: 250px;
@@ -366,6 +369,9 @@ h2::after {
 .imgprofil {
   display: block;
   margin-left: 0;
+  width: 300px;
+  height: auto;
+  max-height: 300px;
 }
 
 .progressbar.anim {
@@ -381,6 +387,7 @@ h2::after {
     width: 0;
     opacity: 0;
   }
+
   100% {
     width: 90%;
     opacity: 1;
@@ -395,6 +402,7 @@ h2::after {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -416,12 +424,14 @@ h2::after {
     width: 22%;
     margin-left: 32%;
   }
+
   .projets span {
     position: absolute;
     right: 0;
     left: 0;
     margin: auto;
   }
+
   .projets img {
     max-width: 280px;
     width: 450px;
@@ -435,17 +445,20 @@ h2::after {
     width: 35%;
     margin-left: 15%;
   }
+
   .projets img {
     max-width: 280px;
     width: 280px;
     padding-right: 100px;
   }
+
   .projets .content-projet {
     padding-top: 20px;
   }
 }
 
 @media screen and (max-width: 1150px) {
+
   #typewriter,
   #typewriter1 {
     font-size: 50px;
@@ -457,49 +470,61 @@ h2::after {
     width: 50%;
     margin-left: -1%;
   }
+
   .rowcompetences,
   .rowformations {
     margin-left: 20px;
     margin-right: 20px;
   }
+
   .progressbar {
     margin-left: 25px;
   }
+
   .hardskills-bar h4 {
     margin-left: 30px;
   }
+
   .content-projet {
     padding: 0px 40px;
     padding-top: 160px;
     text-align: center;
     width: 100vw;
   }
+
   .hardskills-bar {
     margin-left: 1.5vw;
   }
 }
+
 @media screen and (max-width: 950px) {
+
   #typewriter,
   #typewriter1 {
     font-size: 48px;
   }
 }
+
 @media screen and (max-width: 820px) {
   .rowapropos li p span {
     width: 200px;
   }
+
   .rowapropos li p {
     font-size: 14px;
   }
+
   .rowapropos ul {
     margin-top: 10px;
     margin-left: 28%;
   }
-  .rowapropos > img {
+
+  .rowapropos>img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
   }
+
   .social {
     text-align: center;
     margin-top: 0px;
@@ -511,9 +536,11 @@ h2::after {
   .projets span {
     right: 20px;
   }
+
   h1 {
     font-size: 2.5em;
   }
+
   #typewriter,
   #typewriter1 {
     font-size: 45px;
@@ -521,6 +548,7 @@ h2::after {
 }
 
 @media screen and (max-width: 880px) {
+
   #typewriter,
   #typewriter1 {
     font-size: 40px;
@@ -531,12 +559,15 @@ h2::after {
   .projets span {
     right: 50px;
   }
+
   h1 {
     font-size: 1.9em;
   }
+
   .rowapropos ul {
     margin-left: 22%;
   }
+
   #typewriter,
   #typewriter1 {
     font-size: 35px;
@@ -544,6 +575,7 @@ h2::after {
 }
 
 @media screen and (max-width: 640px) {
+
   #typewriter,
   #typewriter1 {
     font-size: 34px;
@@ -556,32 +588,41 @@ h2::after {
     width: 55%;
     margin-left: -10%;
   }
+
   header h1 {
     margin-left: 15px;
   }
+
   .projets span {
     right: 100px;
   }
+
   h1 {
     font-size: 1.6em;
   }
+
   .langue {
     margin-left: 5%;
   }
+
   .projets h4,
   .projets p {
     width: 100%;
   }
+
   #typewriter,
   #typewriter1 {
     font-size: 30px;
   }
+
   .progressbar {
     margin-left: 10px;
   }
+
   .hardskills-bar h4 {
     margin-left: 15px;
   }
+
   .content-formation ul {
     margin-left: 0px;
   }
@@ -591,9 +632,23 @@ h2::after {
   h1 {
     font-size: 1.6em;
   }
+
   .rowapropos li p span {
     margin-left: -14%;
   }
+
+  .rowapropos img {
+    width: 320px;
+    height: auto;
+    max-height: 500px;
+  }
+
+  .rowapropos ul {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+
   #typewriter1,
   #typewriter {
     font-size: 1.4em;
@@ -606,15 +661,19 @@ h2::after {
     margin-left: -25%;
     font-size: 16px;
   }
+
   .projets span {
     right: 125px;
   }
+
   h1 {
     font-size: 1.5em;
   }
+
   .hardskills-bar {
     margin-left: 0px;
   }
+
   #typewriter1,
   #typewriter {
     font-size: 1em;
@@ -623,11 +682,13 @@ h2::after {
 }
 
 @media screen and (max-width: 410px) {
+
   #typewriter1,
   #typewriter {
     font-size: 0.8em;
     margin-left: 5px;
   }
+
   .rowapropos li p span {
     font-size: 13.5px;
   }
@@ -638,10 +699,12 @@ h2::after {
     margin-right: 10px;
     margin-left: 10px;
   }
-  #apropos > ul > li > p {
+
+  #apropos>ul>li>p {
     width: 250px;
   }
-  #apropos > ul > li > p > span {
+
+  #apropos>ul>li>p>span {
     margin-left: -60px;
   }
 }
@@ -650,13 +713,16 @@ h2::after {
   h2 {
     font-size: 12px;
   }
+
   .rowapropos li p span {
     width: 130px;
     font-size: 13px;
   }
-  #menu > a > li {
+
+  #menu>a>li {
     font-size: 16px;
   }
+
   h2::after {
     font-size: 30px;
     margin-top: -11px;
@@ -669,6 +735,7 @@ h2::after {
     width: 34%;
     font-size: 13px;
   }
+
   .rowapropos li p span {
     width: 120px;
     font-size: 13px;
@@ -693,11 +760,13 @@ h2::after {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
 .progress-wrap.active-progress {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
+
 .progress-wrap::after {
   position: absolute;
   font-family: "unicons";
@@ -716,12 +785,15 @@ h2::after {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
 .progress-wrap:hover::after {
   color: #346abb;
 }
+
 .progress-wrap svg path {
   fill: none;
 }
+
 .progress-wrap svg.progress-circle path {
   stroke: var(--grey);
   stroke-width: 4;
@@ -729,6 +801,7 @@ h2::after {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
 body.light .progress-wrap {
   box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
 }
@@ -745,23 +818,25 @@ nav {
   display: flex;
   z-index: 10;
 }
-nav > div {
+
+nav>div {
   display: flex;
   width: 100%;
 }
 
-#menu > a:first-of-type {
+#menu>a:first-of-type {
   margin-left: 135px;
 }
 
-#menuToggle > p {
+#menuToggle>p {
   position: absolute;
   margin-top: 10px;
   margin-left: 15px;
   font-family: "Quicksand", sans-serif;
   font-size: 22px;
 }
-nav > div > ul {
+
+nav>div>ul {
   display: flex;
   list-style: none;
   margin-top: 10px;
@@ -771,7 +846,7 @@ nav > div > ul {
   padding-right: 60px;
 }
 
-nav > div > ul > a {
+nav>div>ul>a {
   text-decoration: none;
   color: #ffffff;
   font-weight: 300;
@@ -781,11 +856,11 @@ nav > div > ul > a {
   transition: all 0.5s;
 }
 
-nav > div > ul > a:hover {
+nav>div>ul>a:hover {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-nav > div > ul > a:hover > li {
+nav>div>ul>a:hover>li {
   color: #ffffff;
 }
 
@@ -802,7 +877,7 @@ nav > div > ul > a:hover > li {
     z-index: 1;
   }
 
-  #menu > a:first-of-type {
+  #menu>a:first-of-type {
     margin-left: -10px;
   }
 
@@ -849,16 +924,19 @@ nav > div > ul > a:hover > li {
   #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
-  #menuToggle input:checked ~ span:first-of-type {
+
+  #menuToggle input:checked~span:first-of-type {
     opacity: 1;
     background: #cdcdcd;
     transform: rotate(45deg) translate(-2px, -1px);
   }
-  #menuToggle input:checked ~ #thirdspan {
+
+  #menuToggle input:checked~#thirdspan {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  #menuToggle input:checked ~ span:first-of-type + span {
+
+  #menuToggle input:checked~span:first-of-type+span {
     opacity: 1;
     background: #cdcdcd;
     transform: rotate(-45deg) translate(-7px, 1px);
@@ -890,22 +968,24 @@ nav > div > ul > a:hover > li {
     color: #346abb;
   }
 
-  #menuToggle input:checked ~ ul {
+  #menuToggle input:checked~ul {
     transform: none;
   }
 
-  nav > div > ul {
+  nav>div>ul {
     flex-direction: column;
   }
 
-  #menuToggle > ul > a {
+  #menuToggle>ul>a {
     margin-bottom: 40px;
     margin-left: -10px;
   }
+
   nav {
     height: 54px;
   }
 }
+
 @media screen and (max-width: 700px) {
   .btn {
     margin-left: 10px;
@@ -971,6 +1051,7 @@ nav > div > ul > a:hover > li {
     1915px 922px #fff, 421px 1409px #fff, 113px 433px #fff;
   animation: animStar 100s linear infinite;
 }
+
 #stars:after {
   content: " ";
   position: absolute;
@@ -1064,6 +1145,7 @@ nav > div > ul > a:hover > li {
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-2000px);
   }
@@ -1091,6 +1173,7 @@ section {
   -webkit-align-items: center;
   align-items: center;
 }
+
 section:before {
   content: "";
   position: absolute;
@@ -1111,6 +1194,7 @@ section:before {
 }
 
 @-moz-keyframes bounce {
+
   0%,
   100%,
   20%,
@@ -1122,6 +1206,7 @@ section:before {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+
   40% {
     -webkit-transform: translate(0, -30px);
     -moz-transform: translate(0, -30px);
@@ -1129,6 +1214,7 @@ section:before {
     -ms-transform: translate(0, -30px);
     transform: translate(0, -30px);
   }
+
   60% {
     -webkit-transform: translate(0, -15px);
     -moz-transform: translate(0, -15px);
@@ -1137,7 +1223,9 @@ section:before {
     transform: translate(0, -15px);
   }
 }
+
 @-webkit-keyframes bounce {
+
   0%,
   100%,
   20%,
@@ -1149,6 +1237,7 @@ section:before {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+
   40% {
     -webkit-transform: translate(0, -30px);
     -moz-transform: translate(0, -30px);
@@ -1156,6 +1245,7 @@ section:before {
     -ms-transform: translate(0, -30px);
     transform: translate(0, -30px);
   }
+
   60% {
     -webkit-transform: translate(0, -15px);
     -moz-transform: translate(0, -15px);
@@ -1164,7 +1254,9 @@ section:before {
     transform: translate(0, -15px);
   }
 }
+
 @-o-keyframes bounce {
+
   0%,
   100%,
   20%,
@@ -1176,6 +1268,7 @@ section:before {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+
   40% {
     -webkit-transform: translate(0, -30px);
     -moz-transform: translate(0, -30px);
@@ -1183,6 +1276,7 @@ section:before {
     -ms-transform: translate(0, -30px);
     transform: translate(0, -30px);
   }
+
   60% {
     -webkit-transform: translate(0, -15px);
     -moz-transform: translate(0, -15px);
@@ -1191,7 +1285,9 @@ section:before {
     transform: translate(0, -15px);
   }
 }
+
 @keyframes bounce {
+
   0%,
   100%,
   20%,
@@ -1203,6 +1299,7 @@ section:before {
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+
   40% {
     -webkit-transform: translate(0, -30px);
     -moz-transform: translate(0, -30px);
@@ -1210,6 +1307,7 @@ section:before {
     -ms-transform: translate(0, -30px);
     transform: translate(0, -30px);
   }
+
   60% {
     -webkit-transform: translate(0, -15px);
     -moz-transform: translate(0, -15px);
@@ -1270,13 +1368,13 @@ button {
 }
 
 @media screen and (min-width: 850px) {
-  #menu > a:first-of-type {
+  #menu>a:first-of-type {
     margin-left: 160px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  #menu > a:first-of-type {
+  #menu>a:first-of-type {
     margin-left: 180px;
   }
 }
@@ -1291,6 +1389,7 @@ button {
   #buttoncv {
     width: 160px;
   }
+
   .btn-cv {
     right: -75px;
   }
@@ -1301,11 +1400,13 @@ button {
     margin-left: 1.5px;
   }
 }
+
 @media screen and (max-width: 650px) {
   #typewriter {
     margin-top: 95px;
   }
-  #menuToggle > p {
+
+  #menuToggle>p {
     left: 160px;
     transform: translateX(-90%);
     top: -15px;
@@ -1325,7 +1426,7 @@ button {
 }
 
 @media screen and (max-width: 400px) {
-  #menuToggle > p {
+  #menuToggle>p {
     font-size: 18px;
     top: -12px;
     left: 135px;
@@ -1333,7 +1434,7 @@ button {
 }
 
 @media screen and (max-width: 370px) {
-  #menuToggle > p {
+  #menuToggle>p {
     display: none;
   }
 }
