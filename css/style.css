@@ -129,6 +129,10 @@ img {
   margin-top: 9px;
 }
 
+.rowprojets li {
+  min-height: 152px;
+}
+
 .content-projet,
 .content-formation {
   display: table-cell;
@@ -171,6 +175,15 @@ img {
 
 .rowprojets span {
   margin-right: 15px;
+}
+
+.rowprojets h4 {
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.rowprojets p {
+  text-align: left;
 }
 
 .rowapropos h2 {
@@ -418,6 +431,10 @@ h2::after {
   .rowprojets {
     margin: 0 20px;
     margin-bottom: 40px;
+  }
+
+  .rowprojets h4 {
+    padding-right: 0px;
   }
 
   .rowapropos li p span {
