@@ -16,19 +16,6 @@ $(window).scroll(function () {
   });
 });
 
-/* ANIMATION SCROLL BAR */
-$(window).scroll(function () {
-  var scrolledFromTop = $(window).scrollTop() + $(window).height();
-  $(".progressbar").each(function () {
-    var distanceFromTop = $(this).offset().top;
-    if (scrolledFromTop >= distanceFromTop - 20 && screen.width >= 750) {
-      $(this).addClass("anim");
-    } else if (scrolledFromTop >= distanceFromTop - 140 && screen.width < 750) {
-      $(this).addClass("anim");
-    }
-  });
-});
-
 /* ANIMATION TEXTE H1 */
 /*
 $(window).ready(() => {
