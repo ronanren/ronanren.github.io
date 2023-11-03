@@ -1,7 +1,4 @@
 /* ANIMATION SMOOTH APPARITION */
-window.onload = function () {
-  window.scrollTo(0, 1);
-};
 
 $(window).scroll(function () {
   var scrolledFromTop = $(window).scrollTop() + $(window).height();
