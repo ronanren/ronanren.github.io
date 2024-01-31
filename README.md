@@ -2,6 +2,10 @@
 
 <h4 align="center">My personal website developed with HTML5, CSS3, Javascript and the Bootstrap framework</h4>
 
+Link : 
+- [ronanren.github.io](https://ronanren.github.io) (Github hosting)
+- [ronanren.on.fleek.co](https://ronanren.on.fleek.co/) (IPFS hosting)
+
 # Features
 
 - Parts :
