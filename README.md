@@ -1,6 +1,8 @@
 # <a href="https://ronanren.github.io" target="_blank">ronanren.github.io</a>
 
-<h4 align="center">My personal website developed with Next.js</h4>
+# Portfolio
+
+My portfolio developed with Next.js.
 
 Link : 
 - [ronanren.github.io](https://ronanren.github.io) (Github hosting)
