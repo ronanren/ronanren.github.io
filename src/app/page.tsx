@@ -1,6 +1,7 @@
 import { DATA } from "@/data/portfolio";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ThemeButton } from "@/components/theme-button";
+import Markdown from "react-markdown";
 
 export default function Page() {
   return (<>
@@ -23,6 +24,12 @@ export default function Page() {
             </Avatar>
           </div>
         </div>
+      </section>
+      <section id="about">
+        <h2 className="text-xl font-bold">
+          About
+        </h2>
+        <Markdown className="prose dark:prose-invert text-pretty text-muted-foreground text-base max-w-full text-justify">{DATA.summary}</Markdown>
       </section>
     </main>
   </>);
