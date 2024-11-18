@@ -2,6 +2,7 @@ import { DATA } from "@/data/portfolio";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ThemeButton } from "@/components/theme-button";
 import Markdown from "react-markdown";
+import Image from "next/image";
 
 export default function Page() {
   return (<>
@@ -30,6 +31,13 @@ export default function Page() {
           About
         </h2>
         <Markdown className="prose dark:prose-invert text-pretty text-muted-foreground text-base max-w-full text-justify">{DATA.summary}</Markdown>
+      </section>
+      <section id="photos">
+        <div className="columns-2 sm:columns-3 gap-4">
+          {DATA.photos.map((photo, index) => (
+            <Image key={index} src={photo} alt={DATA.name} className="rounded-lg mb-4" width={300} height={300} />
+          ))}
+        </div>
       </section>
     </main>
   </>);
