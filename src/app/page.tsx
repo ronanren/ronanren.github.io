@@ -3,6 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ThemeButton } from "@/components/theme-button";
 import Markdown from "react-markdown";
 import Image from "next/image";
+import { ResumeCard } from "@/components/resume-card";
 
 export default function Page() {
   return (<>
@@ -36,6 +37,16 @@ export default function Page() {
         <div className="columns-2 sm:columns-3 gap-4">
           {DATA.photos.map((photo, index) => (
             <Image key={index} src={photo} alt={DATA.name} className="rounded-lg mb-4" width={300} height={300} />
+          ))}
+        </div>
+      </section>
+      <section id="work">
+        <h2 className="text-xl font-bold mb-4">
+          Work Experience
+        </h2>
+        <div className="flex flex-col gap-y-4">
+          {DATA.works.map((work, index) => (
+            <ResumeCard key={index} title={work.title} role={work.role} start={work.start} end={work.end} logo={work.logo} description={work.description} />
           ))}
         </div>
       </section>
