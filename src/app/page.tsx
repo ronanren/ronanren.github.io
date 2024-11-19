@@ -50,6 +50,16 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="education">
+        <h2 className="text-xl font-bold mb-4">
+          Education
+        </h2>
+        <div className="flex flex-col gap-y-4">
+          {DATA.education.map((education, index) => (
+            <ResumeCard key={index} title={education.title} role={education.role} start={education.start} end={education.end} logo={education.logo} url={education.url} />
+          ))}
+        </div>
+      </section>
     </main>
   </>);
 }

@@ -17,6 +17,14 @@ export const DATA = {
 	],
 	works: [
 		{
+			title: "Freelance Developer",
+			role: "Web Developer",
+			start: "Sept 2024",
+			end: "Present",
+			logo: "/ronanren.github.io/profile.png",
+			description: "Freelance developer creating custom solutions for clients worldwide, specializing in web development, automation, and Web3 technologies.",
+		},
+		{
 			title: "Rennes Métropole",
 			role: "GIS/Web Developer",
 			start: "Sept 2020",
@@ -25,12 +33,38 @@ export const DATA = {
 			description: "Work-study in the GIS department, developing web applications for Rennes Métropole. Managed projects using Agile methodologies. Analyzed requirements, designed solutions, and documented specifications. Developed web applications using JavaScript, HTML5/ CSS3, PHP, Symfony, and Twig. Implemented CI / CD pipelines with GitLab CI, Docker, and Jenkins. Worked with PostgreSQL and PostGIS for spatial database management. Developed QGIS extensions using Python. Managed code versions with Git.",
 		},
 		{
-			title: "Swiss Startup Monopole",
+			title: "Monopole",
 			role: "Web3 Developer",
 			start: "June 2023",
 			end: "Sept 2023",
 			logo: "/ronanren.github.io/logos/monopole.png",
-			description: "Implemented Solidity smart contracts for EVM-compatible blockchains. Developed smart contracts in Rust for the MultiversX blockchain. Added tests for smart contracts in Rust for MultiversX and used Chai/ Hardhat for testing Solidity contracts. Implemented interactions with smart contracts on a dApp built with NextJS. Developed an API in NestJS to handle user- to - blockchain interactions, including cache management.",
+			description: "Implemented Solidity smart contracts for EVM-compatible blockchains. Developed smart contracts in Rust for the MultiversX blockchain. Added tests for smart contracts in Rust for MultiversX and used Chai/ Hardhat for testing Solidity contracts. Implemented interactions with smart contracts on a dApp built with NextJS. Developed an API in NestJS to handle user-to-blockchain interactions, including cache management.",
 		},
+	],
+	education: [
+		{
+			title: "ENSSAT",
+			role: "Engineer's Degree in Computer Science",
+			start: "2021",
+			end: "2024",
+			logo: "/ronanren.github.io/logos/enssat.png",
+			url: "https://www.enssat.fr",
+		},
+		{
+			title: "IUT Lannion - University Institute of Technology",
+			role: "University Diploma in Computer Science",
+			start: "2019",
+			end: "2021",
+			logo: "/ronanren.github.io/logos/iut-lannion.png",
+			url: "https://iut-lannion.univ-rennes.fr/",
+		},
+		{
+			title: "Jean-Paul II High School - Saint-Grégoire",
+			role: "General Scientific Baccalaureate, Life and Earth Sciences",
+			start: "2016",
+			end: "2019",
+			logo: "/ronanren.github.io/logos/lycee-jean-paul-ii.png",
+			url: "https://www.lycee-jeanpaul2.fr/",
+		}
 	],
 } as const;
