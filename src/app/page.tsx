@@ -4,10 +4,15 @@ import { ThemeButton } from "@/components/theme-button";
 import Markdown from "react-markdown";
 import Image from "next/image";
 import { ResumeCard } from "@/components/resume-card";
+import { ProjectCard } from "@/components/project-card";
+import { Email } from "./icons/email";
+import { Linkedin } from "./icons/linkedin";
+import { X } from "./icons/x";
+import { Github } from "./icons/github";
 
 export default function Page() {
   return (<>
-    <div className="absolute top-0 right-0 p-4">
+    <div className="fixed top-0 right-0 p-4">
       <ThemeButton />
     </div>
     <main className="flex flex-col w-full space-y-10">
@@ -60,6 +65,71 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="projects">
+        <div className="space-y-12">
+          <div className="flex flex-col justify-center items-center space-y-2 text-center mt-5">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              Discover my latest work
+            </h2>
+            <p className="text-muted-foreground text-base md:text-xl">
+              Over the years, I&apos;ve built a diverse range of projects. Here are some highlights from my journey as a developer.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {DATA.projects.map((project, index) => (
+              <ProjectCard key={index} title={project.title} description={project.description} techs={project.techs} dates={project.dates} image={project.image} video={project.video} href={project.href} links={project.links} />
+            ))}
+          </div>
+        </div>
+      </section>
+     <section id="contact">
+      <div className="max-w-3xl mx-auto text-center space-y-2 py-6">
+        <h2 className="text-4xl font-bold tracking-tight sm:text-5xl text-primary">
+          Contact Me
+        </h2>
+        <p className="text-muted-foreground text-base md:text-xl !mb-5">
+          If you have any questions or would like to work together, feel free to reach out.
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
+          <a 
+            href={`mailto:${DATA.email}`}
+            className="inline-flex items-center justify-center gap-1 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-2 px-6 rounded-full transition-colors duration-300 text-lg"
+          >
+            <Email className="w-8 h-8" />
+            {DATA.email}
+          </a>
+          <div className="flex items-center gap-4">
+            <a
+              href={DATA.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary hover:bg-secondary/50 text-secondary-foreground transition-colors duration-300"
+              aria-label="LinkedIn Profile"
+            >
+              <Linkedin className="w-6 h-6" />
+            </a>
+            <a
+              href={DATA.x}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary hover:bg-secondary/50 text-secondary-foreground transition-colors duration-300"
+              aria-label="X Profile"
+            >
+              <X className="w-6 h-6" />
+            </a>
+            <a
+              href={DATA.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary hover:bg-secondary/50 text-secondary-foreground transition-colors duration-300"
+              aria-label="GitHub Profile"
+            >
+              <Github className="w-6 h-6" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     </main>
   </>);
 }

@@ -1,6 +1,13 @@
+import { Globe } from "@/app/icons/globe";
+import { link } from "fs";
+
 export const DATA = {
 	name: "Ronan Renoux",
 	initials: "RR",
+	email: "renouxpro@gmail.com",
+	linkedin: "https://www.linkedin.com/in/ronanrenoux/",
+	x: "https://x.com/ronanren",
+	github: "https://github.com/ronanren",
 	avatarUrl: "/ronanren.github.io/profile.png",
 	url: "https://ronanren.github.io",
 	description: "Engineer graduate, now a freelance dev. Building cool things, solving problems, and helping people over the world!",
@@ -55,7 +62,7 @@ export const DATA = {
 			role: "University Diploma in Computer Science",
 			start: "2019",
 			end: "2021",
-			logo: "/ronanren.github.io/logos/iut-lannion.png",
+			logo: "/ronanren.github.io/logos/iut-lannion.jpeg",
 			url: "https://iut-lannion.univ-rennes.fr/",
 		},
 		{
@@ -66,5 +73,71 @@ export const DATA = {
 			logo: "/ronanren.github.io/logos/lycee-jean-paul-ii.png",
 			url: "https://www.lycee-jeanpaul2.fr/",
 		}
+	],
+	projects: [
+		{
+			title: "FreeWork Dashboard",
+			description: "A website that stores freelance job listings from FreeWork, allowing users to analyze trends over time and easily contact companies. It helps freelancers track job offers, identify patterns, and make informed decisions for better career planning.",
+			techs: ["Next.js", "TailwindCSS", "PostgreSQL", "Python", "GitHub Actions"],
+			dates: "July 2024 - Present",
+			image: "",
+			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
+			href: "https://freework-dashboard.vercel.app/",
+			links: [
+				{
+					type: "Website",
+					href: "https://freework-dashboard.vercel.app/",
+					icon: <Globe width={14} height={14} />,
+				}
+			]
+		},
+		{
+			title: "FreeWork Dashboard",
+			description: "A website that stores freelance job listings from FreeWork, allowing users to analyze trends over time and easily contact companies. It helps freelancers track job offers, identify patterns, and make informed decisions for better career planning.",
+			techs: ["Next.js", "TailwindCSS", "PostgreSQL", "Python", "GitHub Actions"],
+			dates: "July 2024 - Present",
+			image: "",
+			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
+			href: "https://freework-dashboard.vercel.app/",
+			links: [
+				{
+					type: "Website",
+					href: "https://freework-dashboard.vercel.app/",
+					icon: <Globe width={14} height={14} />,
+				}
+			]
+		},
+		{
+			title: "FreeWork Dashboard",
+			description: "A website that stores freelance job listings from FreeWork, allowing users to analyze trends over time and easily contact companies. It helps freelancers track job offers, identify patterns, and make informed decisions for better career planning.",
+			techs: ["Next.js", "TailwindCSS", "PostgreSQL", "Python", "GitHub Actions"],
+			dates: "July 2024 - Present",
+			image: "",
+			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
+			href: "https://freework-dashboard.vercel.app/",
+			links: [
+				{
+					type: "Website",
+					href: "https://freework-dashboard.vercel.app/",
+					icon: <Globe width={14} height={14} />,
+				}
+			]
+		},
+		{
+			title: "FreeWork Dashboard",
+			description: "A website that stores freelance job listings from FreeWork",
+			techs: ["Next.js", "TailwindCSS"],
+			dates: "July 2024 - Present",
+			image: "",
+			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
+			href: "https://freework-dashboard.vercel.app/",
+			links: [
+				{
+					type: "Website",
+					href: "https://freework-dashboard.vercel.app/",
+					icon: <Globe width={14} height={14} />,
+				}
+			]
+		},
 	],
 } as const;

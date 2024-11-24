@@ -27,7 +27,7 @@ export const ResumeCard = ({ title, role, start, end, logo, description, url }: 
 		<Link className="flex cursor-pointer group" onClick={handleClick} href={url || ""} scroll={false} target={url && "_blank"}>
 			<Avatar className="size-12 border">
 				<AvatarImage src={logo} alt={title} />
-				<AvatarFallback>{title}</AvatarFallback>
+				<AvatarFallback>{title.slice(0, 1)}</AvatarFallback>
 			</Avatar>
 			<div className="flex flex-col ml-4 w-full">
 				<div className="flex justify-between">
