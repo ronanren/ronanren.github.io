@@ -1,5 +1,5 @@
+import { Github } from "@/app/icons/github";
 import { Globe } from "@/app/icons/globe";
-import { link } from "fs";
 
 export const DATA = {
 	name: "Ronan Renoux",
@@ -77,7 +77,7 @@ export const DATA = {
 	projects: [
 		{
 			title: "FreeWork Dashboard",
-			description: "A website that stores freelance job listings from FreeWork, allowing users to analyze trends over time and easily contact companies. It helps freelancers track job offers, identify patterns, and make informed decisions for better career planning.",
+			description: "A website that stores freelance job listings from FreeWork, enabling users to analyze trends over time and contact companies easily. It helps freelancers track opportunities and plan their careers effectively.",
 			techs: ["Next.js", "TailwindCSS", "PostgreSQL", "Python", "GitHub Actions"],
 			dates: "July 2024 - Present",
 			image: "",
@@ -92,50 +92,60 @@ export const DATA = {
 			]
 		},
 		{
-			title: "FreeWork Dashboard",
-			description: "A website that stores freelance job listings from FreeWork, allowing users to analyze trends over time and easily contact companies. It helps freelancers track job offers, identify patterns, and make informed decisions for better career planning.",
-			techs: ["Next.js", "TailwindCSS", "PostgreSQL", "Python", "GitHub Actions"],
-			dates: "July 2024 - Present",
+			title: "Social Stack",
+			description: "The ultimate tool for showcasing social links, projects, and more in one seamless platform. It's a SaaS platform that's 100% free for now.",
+			techs: ["Next.js", "Supabase", "NextUI", "TailwindCSS"],
+			dates: "May 2024 - Present",
 			image: "",
-			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
-			href: "https://freework-dashboard.vercel.app/",
+			video: "/ronanren.github.io/videos/social-stack.mp4",
+			href: "https://socialstack.me/",
 			links: [
 				{
 					type: "Website",
-					href: "https://freework-dashboard.vercel.app/",
-					icon: <Globe width={14} height={14} />,
+					href: "https://socialstack.me/",
+					icon: <Globe width={14} height={14} />
 				}
 			]
 		},
 		{
-			title: "FreeWork Dashboard",
-			description: "A website that stores freelance job listings from FreeWork, allowing users to analyze trends over time and easily contact companies. It helps freelancers track job offers, identify patterns, and make informed decisions for better career planning.",
-			techs: ["Next.js", "TailwindCSS", "PostgreSQL", "Python", "GitHub Actions"],
-			dates: "July 2024 - Present",
+			title: "StackOverflow Answer",
+			description: "A Chrome Extension that integrates StackOverflow answers into Google search results, helping users find relevant solutions without leaving the page. With over 100 active users, it remains a valuable tool for developers.",
+			techs: ["JavaScript", "CSS", "HTML"],
+			dates: "December 2022 - Present",
 			image: "",
-			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
-			href: "https://freework-dashboard.vercel.app/",
+			video: "/ronanren.github.io/videos/stackoverflow-answer.mp4",
+			href: "https://chrome.google.com/webstore/detail/stackoverflow-answer/bmlkdgmiaemiaopodggkhfblhmefimoi",
 			links: [
 				{
-					type: "Website",
-					href: "https://freework-dashboard.vercel.app/",
-					icon: <Globe width={14} height={14} />,
+					type: "Chrome Web Store",
+					href: "https://chrome.google.com/webstore/detail/stackoverflow-answer/bmlkdgmiaemiaopodggkhfblhmefimoi",
+					icon: <Globe width={14} height={14} />
+				},
+				{
+					type: "Source",
+					href: "https://github.com/ronanren/StackOverflowAnswer",
+					icon: <Github width={14} height={14} />
 				}
 			]
 		},
 		{
-			title: "FreeWork Dashboard",
-			description: "A website that stores freelance job listings from FreeWork",
-			techs: ["Next.js", "TailwindCSS"],
-			dates: "July 2024 - Present",
+			title: "Crypto Ticker LED",
+			description: "A system to display real-time cryptocurrency prices on a matrix LED, paired with a web interface for seamless control. The software, developed by me, while the hardware is sold by a partner.",
+			techs: ["Python", "React", "Chakra UI"],
+			dates: "September 2024 - Present",
 			image: "",
-			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
-			href: "https://freework-dashboard.vercel.app/",
+			video: "/ronanren.github.io/videos/crypto-ticker-led.mp4",
+			href: "https://www.etsy.com/listing/1660298917/handcrafted-cryptoak-ticker-112-led",
 			links: [
 				{
-					type: "Website",
-					href: "https://freework-dashboard.vercel.app/",
-					icon: <Globe width={14} height={14} />,
+					type: "Etsy",
+					href: "https://www.etsy.com/listing/1660298917/handcrafted-cryptoak-ticker-112-led",
+					icon: <Globe width={14} height={14} />
+				},
+				{
+					type: "Source",
+					href: "https://github.com/ronanren/CryptoTickerLed",
+					icon: <Github width={14} height={14} />
 				}
 			]
 		},

@@ -26,6 +26,7 @@ export const ProjectCard = ({ title, description, techs, dates, image, video, hr
       <Link
         href={href || "#"}
         className="block cursor-pointer"
+        target="_blank"
       >
         {video && (
           <video
