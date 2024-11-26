@@ -50,21 +50,20 @@ export default function Page() {
         </BlurFade>
       </section>
       <section id="photos">
-       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-        {DATA.photos.map((photo, index) => (
-          <BlurFade delay={FADE_DELAY * 6 + index * 0.05} key={index}>
-            <div className="aspect-[5/6] relative overflow-hidden rounded-lg">
-              <Image
-                src={photo}
-                alt={`${DATA.name} - Photo ${index + 1}`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 50vw, 33vw"
-              />
-            </div>
-          </BlurFade>
-        ))}
-      </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {DATA.photos.map((photo, index) => (
+            <BlurFade delay={FADE_DELAY * 6 + index * 0.05} key={photo}>
+              <div className="aspect-[5/6] relative overflow-hidden rounded-lg">
+                <Image
+                  src={photo}
+                  alt={`${DATA.name} - Photo ${index + 1}`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </BlurFade>
+          ))}
+        </div>
       </section>
       <section id="work">
         <BlurFade delay={FADE_DELAY * 8}>
