@@ -15,7 +15,7 @@ const FADE_DELAY = 0.08;
 
 export default function Page() {
   return (<>
-    <div className="fixed top-0 right-0 p-4">
+    <div className="fixed top-0 right-0 p-4 z-10">
       <ThemeButton />
     </div>
     <main className="flex flex-col w-full space-y-10">
@@ -50,11 +50,11 @@ export default function Page() {
         </BlurFade>
       </section>
       <section id="photos">
-        <div className="columns-2 sm:columns-3 gap-4">
+        <div className="columns-2 sm:columns-2 lg:columns-3 gap-4">
           {DATA.photos.map((photo, index) => (
-            
+            <BlurFade delay={FADE_DELAY * 6 + index * 0.05} key={index}>
               <Image key={index} src={photo} alt={DATA.name} className="rounded-lg mb-4" width={300} height={300} />
-            
+            </BlurFade>
           ))}
         </div>
       </section>
