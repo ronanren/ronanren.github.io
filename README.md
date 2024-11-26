@@ -1,25 +1,19 @@
-# <a href="https://ronanren.github.io" target="_blank">ronanren.github.io</a>
+# Portfolio
 
-<h4 align="center">My personal website developed with HTML5, CSS3, Javascript and the Bootstrap framework</h4>
+My portfolio developed with Next.js.
 
-Link : 
-- [ronanren.github.io](https://ronanren.github.io) (Github hosting)
-- [ronanren.on.fleek.co](https://ronanren.on.fleek.co/) (IPFS hosting)
+Link : [ronanren.github.io](https://ronanren.github.io)
 
-# Features
+## Development
 
-- Parts :
-  - About me
-  - Courses
-  - Projects
-  - Skills
-  - Certifications
-  - Areas of interest
-- English/French version
-- Possibility to download my CV 📋
-- Access to my various social networks (Github, Linkedin, Freecodecamp, and Twitter)
-- Description of my different projects
+```bash
+npm install
+npm run dev
+```
+
+Development URL : http://localhost:3000/
 
 # Licence
 
-<a href="https://github.com/ronanren/ronanren.github.io/blob/master/LICENSE" target="_blank">MIT</a>
+Licensed under the
+<a href="https://github.com/ronanren/ronanren.github.io/blob/master/LICENSE" target="_blank">MIT license</a>.
