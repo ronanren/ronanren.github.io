@@ -1,8 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import { cn } from "@/lib/utils";
+import React from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import Markdown from "react-markdown";
