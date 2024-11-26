@@ -73,7 +73,7 @@ export const ProjectCard = ({ title, description, techs, dates, image, video, hr
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links?.map((link, index) => (
               <Link href={link?.href} key={index} target="_blank">
-                <Badge key={index} className="flex gap-2 px-2 py-1 text-[10px]">
+                <Badge key={index} className="flex gap-1 px-2 py-1 text-[10px]">
                   {link.icon}
                   {link.type}
                 </Badge>
