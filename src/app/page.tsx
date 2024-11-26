@@ -53,7 +53,7 @@ export default function Page() {
         <div className="columns-2 sm:columns-2 lg:columns-3 gap-4">
           {DATA.photos.map((photo, index) => (
             <BlurFade delay={FADE_DELAY * 6 + index * 0.05} key={index}>
-              <Image key={index} src={photo} alt={DATA.name} className="rounded-lg mb-4" width={300} height={300} />
+              <Image key={index} src={photo} alt={DATA.name} className="rounded-lg mb-4 w-full object-cover" width={300} height={300} />
             </BlurFade>
           ))}
         </div>
