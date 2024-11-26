@@ -16,11 +16,10 @@ export const DATA = {
 	photos: [
 		"photos/image1.webp",
 		"photos/image2.webp",
-		"photos/image3.webp",
 		"photos/image4.webp",
 		"photos/image5.webp",
+		"photos/image3.webp",
 		"photos/image6.webp",
-		"photos/image7.webp",
 	],
 	works: [
 		{
