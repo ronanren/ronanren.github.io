@@ -8,19 +8,19 @@ export const DATA = {
 	linkedin: "https://www.linkedin.com/in/ronanrenoux/",
 	x: "https://x.com/ronanren",
 	github: "https://github.com/ronanren",
-	avatarUrl: "/ronanren.github.io/profile.png",
+	avatarUrl: "profile.png",
 	url: "https://ronanren.github.io",
 	description: "Engineer graduate, now a freelance dev. Building cool things, solving problems, and helping people over the world!",
 	summary:
 		"In September 2024, I graduated as an engineer from [ENSSAT](https://www.enssat.fr) in France and started working as a **freelance developer**. During a 4-year work-study at [Rennes Métropole](https://metropole.rennes.fr), I gained experience in **GIS** and **web development**. I worked as a **Web3 developer** at a Swiss startup, deepening my passion for **decentralized technologies**. Now, I work remotely, specializing in **web development**, **automation**, and **Web3**, collaborating with clients worldwide 🌍.",
 	photos: [
-		"/ronanren.github.io/photos/image1.jpeg",
-		"/ronanren.github.io/photos/image2.jpeg",
-		"/ronanren.github.io/photos/image3.jpeg",
-		"/ronanren.github.io/photos/image4.jpeg",
-		"/ronanren.github.io/photos/image5.jpeg",
-		"/ronanren.github.io/photos/image6.jpeg",
-		"/ronanren.github.io/photos/image7.jpeg",
+		"photos/image1.jpeg",
+		"photos/image2.jpeg",
+		"photos/image3.jpeg",
+		"photos/image4.jpeg",
+		"photos/image5.jpeg",
+		"photos/image6.jpeg",
+		"photos/image7.jpeg",
 	],
 	works: [
 		{
@@ -28,7 +28,7 @@ export const DATA = {
 			role: "Web Developer",
 			start: "Sept 2024",
 			end: "Present",
-			logo: "/ronanren.github.io/profile.png",
+			logo: "profile.png",
 			description: "Freelance developer creating custom solutions for clients worldwide, specializing in web development, automation, and Web3 technologies.",
 		},
 		{
@@ -36,7 +36,7 @@ export const DATA = {
 			role: "GIS/Web Developer",
 			start: "Sept 2020",
 			end: "Sept 2024",
-			logo: "/ronanren.github.io/logos/rennes-metropole.png",
+			logo: "logos/rennes-metropole.png",
 			description: "Work-study in the GIS department, developing web applications for Rennes Métropole. Managed projects using Agile methodologies. Analyzed requirements, designed solutions, and documented specifications. Developed web applications using JavaScript, HTML5/ CSS3, PHP, Symfony, and Twig. Implemented CI/CD pipelines with GitLab CI, Docker, and Jenkins. Worked with PostgreSQL and PostGIS for spatial database management. Developed QGIS extensions using Python.",
 		},
 		{
@@ -44,7 +44,7 @@ export const DATA = {
 			role: "Web3 Developer",
 			start: "June 2023",
 			end: "Sept 2023",
-			logo: "/ronanren.github.io/logos/monopole.png",
+			logo: "logos/monopole.png",
 			description: "Implemented Solidity smart contracts for EVM-compatible blockchains. Developed smart contracts in Rust for the MultiversX blockchain. Added tests for smart contracts in Rust for MultiversX and used Chai/Hardhat for testing Solidity contracts. Implemented interactions with smart contracts on a dApp built with NextJS. Developed an API in NestJS to handle user-to-blockchain interactions, including cache management.",
 		},
 	],
@@ -54,7 +54,7 @@ export const DATA = {
 			role: "Engineer's Degree in Computer Science",
 			start: "2021",
 			end: "2024",
-			logo: "/ronanren.github.io/logos/enssat.png",
+			logo: "logos/enssat.png",
 			url: "https://www.enssat.fr",
 		},
 		{
@@ -62,7 +62,7 @@ export const DATA = {
 			role: "University Diploma in Computer Science",
 			start: "2019",
 			end: "2021",
-			logo: "/ronanren.github.io/logos/iut-lannion.jpeg",
+			logo: "logos/iut-lannion.jpeg",
 			url: "https://iut-lannion.univ-rennes.fr/",
 		},
 		{
@@ -70,7 +70,7 @@ export const DATA = {
 			role: "General Scientific Baccalaureate, Life and Earth Sciences",
 			start: "2016",
 			end: "2019",
-			logo: "/ronanren.github.io/logos/lycee-jean-paul-ii.png",
+			logo: "logos/lycee-jean-paul-ii.png",
 			url: "https://www.lycee-jeanpaul2.fr/",
 		}
 	],
@@ -81,7 +81,7 @@ export const DATA = {
 			techs: ["Next.js", "TailwindCSS", "PostgreSQL", "Python", "GitHub Actions"],
 			dates: "July 2024 - Present",
 			image: "",
-			video: "/ronanren.github.io/videos/freework-dashboard.mp4",
+			video: "videos/freework-dashboard.mp4",
 			href: "https://freework-dashboard.vercel.app/",
 			links: [
 				{
@@ -97,7 +97,7 @@ export const DATA = {
 			techs: ["Next.js", "Supabase", "NextUI", "TailwindCSS"],
 			dates: "May 2024 - Present",
 			image: "",
-			video: "/ronanren.github.io/videos/social-stack.mp4",
+			video: "videos/social-stack.mp4",
 			href: "https://socialstack.me/",
 			links: [
 				{
@@ -113,7 +113,7 @@ export const DATA = {
 			techs: ["JavaScript", "CSS", "HTML"],
 			dates: "December 2022 - Present",
 			image: "",
-			video: "/ronanren.github.io/videos/stackoverflow-answer.mp4",
+			video: "videos/stackoverflow-answer.mp4",
 			href: "https://chrome.google.com/webstore/detail/stackoverflow-answer/bmlkdgmiaemiaopodggkhfblhmefimoi",
 			links: [
 				{
@@ -134,7 +134,7 @@ export const DATA = {
 			techs: ["Python", "React", "Chakra UI"],
 			dates: "September 2024 - Present",
 			image: "",
-			video: "/ronanren.github.io/videos/crypto-ticker-led.mp4",
+			video: "videos/crypto-ticker-led.mp4",
 			href: "https://www.etsy.com/listing/1660298917/handcrafted-cryptoak-ticker-112-led",
 			links: [
 				{
