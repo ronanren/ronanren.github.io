@@ -14,13 +14,13 @@ export const DATA = {
 	summary:
 		"In September 2024, I graduated as an engineer from [ENSSAT](https://www.enssat.fr) in France and started working as a **freelance developer**. During a 4-year work-study at [Rennes Métropole](https://metropole.rennes.fr), I gained experience in **GIS** and **web development**. I worked as a **Web3 developer** at a Swiss startup, deepening my passion for **decentralized technologies**. Now, I work remotely, specializing in **web development**, **automation**, and **Web3**, collaborating with clients worldwide 🌍.",
 	photos: [
-		"photos/image1.jpeg",
-		"photos/image2.jpeg",
-		"photos/image3.jpeg",
-		"photos/image4.jpeg",
-		"photos/image5.jpeg",
-		"photos/image6.jpeg",
-		"photos/image7.jpeg",
+		"photos/image1.webp",
+		"photos/image2.webp",
+		"photos/image3.webp",
+		"photos/image4.webp",
+		"photos/image5.webp",
+		"photos/image6.webp",
+		"photos/image7.webp",
 	],
 	works: [
 		{
