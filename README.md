@@ -2,7 +2,7 @@
 
 My portfolio developed with Next.js.
 
-Link : [ronanren.github.io](https://ronanren.github.io)
+Link : [ronanren.fr](https://ronanren.fr)
 
 ## Development
 
