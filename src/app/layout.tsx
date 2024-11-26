@@ -53,6 +53,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="3b79ada5-9ef8-4240-91e1-9f44f4ba4106"></script>
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-20 px-6",
