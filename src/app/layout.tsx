@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
+    images: ["public/profile.png"],
     title: `${DATA.name}`,
     description: DATA.description,
     url: DATA.url,
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
+    images: ["public/profile.png"],
     title: `${DATA.name}`,
     card: "summary_large_image",
   },
